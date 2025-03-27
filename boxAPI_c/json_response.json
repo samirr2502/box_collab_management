@@ -1,0 +1,548 @@
+{
+    "total_count": 17,
+    "entries": [
+        {
+            "type": "collaboration",
+            "id": "12347831050",
+            "created_by": null,
+            "created_at": "2018-01-03T13:44:35-08:00",
+            "modified_at": "2018-01-03T13:44:35-08:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "group",
+                "id": "640570845",
+                "name": "OIT-SS-TSE-SU",
+                "group_type": "managed_group"
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2018-01-03T13:44:35-08:00",
+            "item": null,
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "45818812931",
+            "created_by": {
+                "type": "user",
+                "id": "3087673706",
+                "name": "Ben Holmes",
+                "login": "ben-h@byu.edu"
+            },
+            "created_at": "2023-06-27T16:02:13-07:00",
+            "modified_at": "2023-06-27T16:02:13-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "11694684547",
+                "name": "Justin Collings",
+                "login": "jmc255@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2023-06-27T16:02:13-07:00",
+            "item": null,
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "13305356809",
+            "created_by": {
+                "type": "user",
+                "id": "2651949248",
+                "name": "Daniel Chandler",
+                "login": "drc77@byu.edu"
+            },
+            "created_at": "2018-05-02T14:31:49-07:00",
+            "modified_at": "2018-05-02T14:38:06-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "3476769917",
+                "name": "Becky Crawford",
+                "login": "rlc@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2018-05-02T14:31:49-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "37017703843",
+            "created_by": {
+                "type": "user",
+                "id": "2651949248",
+                "name": "Daniel Chandler",
+                "login": "drc77@byu.edu"
+            },
+            "created_at": "2022-05-17T13:46:58-07:00",
+            "modified_at": "2022-05-17T13:47:06-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "3503914650",
+                "name": "David Waddell",
+                "login": "dlw34@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2022-05-17T13:46:58-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "13214013775",
+            "created_by": {
+                "type": "user",
+                "id": "3245879964",
+                "name": "Clifford Ross",
+                "login": "cdross@byu.edu"
+            },
+            "created_at": "2018-04-04T12:43:57-07:00",
+            "modified_at": "2018-04-25T07:43:06-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "3523864959",
+                "name": "Daidre Hulick",
+                "login": "daidreh@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2018-04-04T12:43:56-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "36879307971",
+            "created_by": {
+                "type": "user",
+                "id": "2651949248",
+                "name": "Daniel Chandler",
+                "login": "drc77@byu.edu"
+            },
+            "created_at": "2022-05-05T08:42:04-07:00",
+            "modified_at": "2022-05-17T13:47:12-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "3578435843",
+                "name": "Bryce Bunting",
+                "login": "bbunting@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2022-05-05T08:42:04-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "16563748185",
+            "created_by": {
+                "type": "user",
+                "id": "2651949248",
+                "name": "Daniel Chandler",
+                "login": "drc77@byu.edu"
+            },
+            "created_at": "2019-05-06T10:44:50-07:00",
+            "modified_at": "2019-09-25T11:51:10-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "8191241904",
+                "name": "Sandi Bennett",
+                "login": "sbenne58@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2019-05-06T16:26:47-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "55911452493",
+            "created_by": {
+                "type": "user",
+                "id": "21683534951",
+                "name": "Anjilee Ferguson",
+                "login": "anjferg@byu.edu"
+            },
+            "created_at": "2024-08-08T09:46:15-07:00",
+            "modified_at": "2024-08-08T09:46:15-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "9941347947",
+                "name": "Madeline McCauley",
+                "login": "mmccau01@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2024-08-08T09:46:15-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "43814780164",
+            "created_by": {
+                "type": "user",
+                "id": "3476769917",
+                "name": "Becky Crawford",
+                "login": "rlc@byu.edu"
+            },
+            "created_at": "2023-04-21T14:08:26-07:00",
+            "modified_at": "2023-11-30T15:56:15-08:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "10577922974",
+                "name": "Lindsey Blau",
+                "login": "lp526@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2023-04-21T14:08:26-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "39904989948",
+            "created_by": {
+                "type": "user",
+                "id": "2651949248",
+                "name": "Daniel Chandler",
+                "login": "drc77@byu.edu"
+            },
+            "created_at": "2022-11-08T12:23:19-08:00",
+            "modified_at": "2022-11-08T12:23:27-08:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "11505212547",
+                "name": "Deborah Hall",
+                "login": "ddm6@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2022-11-08T12:23:19-08:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "42610603264",
+            "created_by": {
+                "type": "user",
+                "id": "3503914650",
+                "name": "David Waddell",
+                "login": "dlw34@byu.edu"
+            },
+            "created_at": "2023-03-03T13:35:42-08:00",
+            "modified_at": "2023-03-03T13:35:42-08:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "14959939569",
+                "name": "Trevor Bickmore",
+                "login": "b1ckmor3@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2023-03-03T13:35:42-08:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "53671699158",
+            "created_by": {
+                "type": "user",
+                "id": "11505212547",
+                "name": "Deborah Hall",
+                "login": "ddm6@byu.edu"
+            },
+            "created_at": "2024-05-01T12:01:37-07:00",
+            "modified_at": "2024-05-01T12:01:37-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "19951858619",
+                "name": "Rebekah Dayton",
+                "login": "rd2003@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2024-05-01T12:01:37-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "39904987548",
+            "created_by": {
+                "type": "user",
+                "id": "2651949248",
+                "name": "Daniel Chandler",
+                "login": "drc77@byu.edu"
+            },
+            "created_at": "2022-11-08T12:23:19-08:00",
+            "modified_at": "2022-11-08T12:23:36-08:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "21683534951",
+                "name": "Anjilee Ferguson",
+                "login": "anjferg@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "co-owner",
+            "acknowledged_at": "2022-11-08T12:23:19-08:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "52900050114",
+            "created_by": {
+                "type": "user",
+                "id": "3503914650",
+                "name": "David Waddell",
+                "login": "dlw34@byu.edu"
+            },
+            "created_at": "2024-03-29T09:15:15-07:00",
+            "modified_at": "2024-03-29T09:15:15-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "23663698729",
+                "name": "Samir Rodriguez",
+                "login": "samirr14@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2024-03-29T09:15:15-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "48142854203",
+            "created_by": {
+                "type": "user",
+                "id": "3476769917",
+                "name": "Becky Crawford",
+                "login": "rlc@byu.edu"
+            },
+            "created_at": "2023-09-06T13:02:11-07:00",
+            "modified_at": "2023-09-06T13:02:11-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "28550113604",
+                "name": "Haylie Morgan",
+                "login": "haylielm@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2023-09-06T13:02:11-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "58447727749",
+            "created_by": {
+                "type": "user",
+                "id": "19951858619",
+                "name": "Rebekah Dayton",
+                "login": "rd2003@byu.edu"
+            },
+            "created_at": "2024-11-15T09:33:20-08:00",
+            "modified_at": "2024-11-15T09:33:20-08:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "28569229852",
+                "name": "Lonni Burdett",
+                "login": "loni2020@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2024-11-15T09:33:20-08:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        },
+        {
+            "type": "collaboration",
+            "id": "57262091540",
+            "created_by": {
+                "type": "user",
+                "id": "3476769917",
+                "name": "Becky Crawford",
+                "login": "rlc@byu.edu"
+            },
+            "created_at": "2024-09-30T13:35:13-07:00",
+            "modified_at": "2024-09-30T13:35:13-07:00",
+            "expires_at": null,
+            "status": "accepted",
+            "accessible_by": {
+                "type": "user",
+                "id": "35709042636",
+                "name": "Lawson Archibald",
+                "login": "larchib7@byu.edu",
+                "is_active": true
+            },
+            "invite_email": null,
+            "role": "editor",
+            "acknowledged_at": "2024-09-30T13:35:13-07:00",
+            "item": {
+                "type": "folder",
+                "id": "47596547829",
+                "sequence_id": "1",
+                "etag": "1",
+                "name": "First-Year Experience"
+            },
+            "is_access_only": false,
+            "app_item": null
+        }
+    ]
+}
