@@ -3,7 +3,9 @@ import threading
 
 #GLOBAL VARIABLES
 ROOT_FOLDER_ID = '47831431907'
-DEV_TOKEN = "2IUdzrstSDBSlxVHf3T3nVyCjI5OTbhf"
+CLIENT_ID = '020r4pyyewrt5si70y5mtvsg4g6kl3qq'
+CLIENT_SECRET = 'aInyr3WzN8XlOEyZYy8yptsD6siBHW5d'
+DEV_TOKEN = "gVViDLhq6t2V3DMO6TLNAldoF3DQ31er"
 
 
 lock = threading.Lock()
@@ -82,7 +84,7 @@ def main():
     print("started box connection\n")
     file.write("started box connection\n")
     #Create Connection 
-    auth = OAuth2(client_id=None, client_secret=None, access_token=DEV_TOKEN)
+    auth = OAuth2(client_id=CLIENT_ID, client_secret=CLIENT_SECRET, access_token=DEV_TOKEN)
     client = Client(auth)
     print(f'box connection made: {client}\n')
     file.write(f'box connection made: {client}\n\n')
