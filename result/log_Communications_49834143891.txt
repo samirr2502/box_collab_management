@@ -1,0 +1,310 @@
+box connection made: <boxsdk.client.client.Client object at 0x106b2a780>
+
+started folder look up:49834143891
+[Thread-Main] API call get_collaborations
+[Thread-Main] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8e5d0>
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],Group,640570845,OIT-SS-TSE-SU,None,49834143891,Communications,12347831050
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,11694684547,Justin Collings,jmc255@byu.edu,49834143891,Communications,45818812931
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,3476769917,Becky Crawford,rlc@byu.edu,49834143891,Communications,13305356809
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,3503914650,David Waddell,dlw34@byu.edu,49834143891,Communications,37017703843
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,3523864959,Daidre Hulick,daidreh@byu.edu,49834143891,Communications,13214013775
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,3578435843,Bryce Bunting,bbunting@byu.edu,49834143891,Communications,36879307971
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,8191241904,Sandi Bennett,sbenne58@byu.edu,49834143891,Communications,16563748185
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,9941347947,Madeline McCauley,mmccau01@byu.edu,49834143891,Communications,55911452493
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,10577922974,Lindsey Blau,lp526@byu.edu,49834143891,Communications,43814780164
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,11505212547,Deborah Hall,ddm6@byu.edu,49834143891,Communications,39904989948
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,49834143891,Communications,42610603264
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,19951858619,Rebekah Dayton,rd2003@byu.edu,49834143891,Communications,53671699158
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,49834143891,Communications,39904987548
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,23663698729,Samir Rodriguez,samirr14@byu.edu,49834143891,Communications,52900050114
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,28550113604,Haylie Morgan,haylielm@byu.edu,49834143891,Communications,48142854203
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,28569229852,Lonni Burdett,loni2020@byu.edu,49834143891,Communications,58447727749
+[Thread-Main] API call get().name
+[Thread-Main] API call get().name result: Communications
+[Thread-Main],User,35709042636,Lawson Archibald,larchib7@byu.edu,49834143891,Communications,57262091540
+[Thread-Main] API call get_items
+[Thread-Main] API call get_items result:<boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e930>
+[Thread-2 (find_folder)] Started
+Folder 301507887693: Design
+[Thread-3 (find_folder)] Started
+Folder 301501682259: Emails
+[Thread-4 (find_folder)] Started
+Folder 244590294882: Mtg Notes & Agendas
+[Thread-5 (find_folder)] Started
+Folder 301508399230: Other
+[Thread-6 (find_folder)] Started
+Folder 304820629300: Peer Mentor Recognition
+[Thread-7 (find_folder)] Started
+Folder 49834535665: Social Media
+[Thread-2 (find_folder)] - Joining Thread
+[Thread-3 (find_folder)] started folder look up for folder: Emails - 301501682259
+[Thread-6 (find_folder)] started folder look up for folder: Peer Mentor Recognition - 304820629300
+[Thread-2 (find_folder)] started folder look up for folder: Design - 301507887693
+[Thread-3 (find_folder)] API call get_items
+[Thread-3 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f800>
+[Thread-6 (find_folder)] API call get_items
+[Thread-6 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ff80>
+[Thread-2 (find_folder)] API call get_items
+[Thread-2 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8c800>
+[Thread-5 (find_folder)] started folder look up for folder: Other - 301508399230
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc52e0>
+[Thread-7 (find_folder)] started folder look up for folder: Social Media - 49834535665
+[Thread-7 (find_folder)] API call get_items
+[Thread-7 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e960>
+[Thread-4 (find_folder)] started folder look up for folder: Mtg Notes & Agendas - 244590294882
+[Thread-4 (find_folder)] API call get_items
+[Thread-4 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f1d0>
+[Thread-6 (find_folder)] API call get_items (2)
+[Thread-3 (find_folder)]  >>Parent 301501682259 - Child: Folder 251951814981 -> Mentor Introduction Emails With Videos
+[Thread-2 (find_folder)]  >>Parent 301507887693 - Child: Folder 278685664750 -> FYE Branding & Logos
+[Thread-7 (find_folder)]  >>Parent 49834535665 - Child: Folder 306323776757 -> NSO Hype Up
+[Thread-6 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8d2e0>
+[Thread-4 (find_folder)]  >>Parent 244590294882 - Child: Folder 301507388856 -> Past Semesters
+[Thread-5 (find_folder)]  >>Parent 301508399230 - Child: Folder 278687559601 -> FYE Website Redesign
+[Thread-3 (find_folder)] API call get_collaborations
+[Thread-3 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc5b20>
+[Thread-2 (find_folder)] API call get_collaborations
+[Thread-2 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8da30>
+[Thread-7 (find_folder)] API call get_collaborations
+[Thread-7 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc5ee0>
+[Thread-4 (find_folder)] API call get_collaborations
+[Thread-4 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc6150>
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc4fb0>
+[Thread-3 (find_folder)] Flusing write to flies
+[Thread-6 (find_folder)] Finished running
+[Thread-3 (find_folder)]  >>Parent 301501682259 - Child: Folder 278684039291 -> Weekly Email Templates
+[Thread-3 (find_folder)] API call get_collaborations
+[Thread-3 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc5a00>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 301508399230 - Child: Folder 262791714529 -> Mentor Headshots
+[Thread-2 (find_folder)] Flusing write to flies
+[Thread-2 (find_folder)]  >>Parent 301507887693 - Child: Folder 278687557201 -> Stickers
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8eb40>
+[Thread-2 (find_folder)] API call get_collaborations
+[Thread-2 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc7320>
+[Thread-7 (find_folder)] Flusing write to flies
+[Thread-7 (find_folder)]  >>Parent 49834535665 - Child: Folder 301502315691 -> Past Semesters
+[Thread-7 (find_folder)] API call get_collaborations
+[Thread-7 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8ff50>
+[Thread-4 (find_folder)] Flusing write to flies
+[Thread-4 (find_folder)] API call get_items (2)
+[Thread-4 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ef60>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 301508399230 - Child: Folder 278687554801 -> New Stock Photos
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc5490>
+[Thread-2 (find_folder)] Flusing write to flies
+[Thread-2 (find_folder)] API call get_items (2)
+[Thread-2 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ec90>
+[Thread-3 (find_folder)] Flusing write to flies
+[Thread-3 (find_folder)] API call get_items (2)
+[Thread-3 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e8d0>
+[Thread-7 (find_folder)] Flusing write to flies
+[Thread-7 (find_folder)]  >>Parent 49834535665 - Child: Folder 304321185303 -> Posts for Approval
+[Thread-7 (find_folder)] API call get_collaborations
+[Thread-7 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8f6e0>
+[Thread-4 (find_folder)] started folder look up for folder: Past Semesters - 301507388856
+[Thread-4 (find_folder)] API call get_items
+[Thread-4 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc5580>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 301508399230 - Child: Folder 278687550001 -> Online Orientation Website Redesign
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8f2f0>
+[Thread-7 (find_folder)] Flusing write to flies
+[Thread-7 (find_folder)] API call get_items (2)
+[Thread-7 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8dc70>
+[Thread-2 (find_folder)] started folder look up for folder: FYE Branding & Logos - 278685664750
+[Thread-2 (find_folder)] API call get_items
+[Thread-2 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8da30>
+[Thread-3 (find_folder)] started folder look up for folder: Mentor Introduction Emails With Videos - 251951814981
+[Thread-3 (find_folder)] API call get_items
+[Thread-3 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e870>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-4 (find_folder)] API call get_items (2)
+[Thread-4 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ea20>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc5580>
+[Thread-4 (find_folder)] Finished running
+[Thread-3 (find_folder)]  >>Parent 251951814981 - Child: Folder 278687552401 -> Mentor Introduction Video Review Process
+[Thread-3 (find_folder)] API call get_collaborations
+[Thread-3 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8f6b0>
+[Thread-2 (find_folder)] API call get_items (2)
+[Thread-2 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc7740>
+[Thread-7 (find_folder)] started folder look up for folder: NSO Hype Up - 306323776757
+[Thread-7 (find_folder)] API call get_items
+[Thread-7 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8edb0>
+[Thread-5 (find_folder)] started folder look up for folder: FYE Website Redesign - 278687559601
+[Thread-3 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e300>
+[Thread-3 (find_folder)] API call get_items (2)
+[Thread-3 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8da60>
+[Thread-7 (find_folder)] API call get_items (2)
+[Thread-7 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f3e0>
+[Thread-2 (find_folder)] started folder look up for folder: Stickers - 278687557201
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f350>
+[Thread-2 (find_folder)] API call get_items
+[Thread-2 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc6cf0>
+[Thread-2 (find_folder)] API call get_items (2)
+[Thread-2 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc6570>
+[Thread-3 (find_folder)] started folder look up for folder: Mentor Introduction Video Review Process - 278687552401
+[Thread-3 (find_folder)] API call get_items
+[Thread-3 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e210>
+[Thread-7 (find_folder)] started folder look up for folder: Past Semesters - 301502315691
+[Thread-7 (find_folder)] API call get_items
+[Thread-7 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ef00>
+[Thread-2 (find_folder)] Finished running
+[Thread-3 (find_folder)] API call get_items (2)
+[Thread-3 (find_folder)] - Joining Thread
+[Thread-3 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e7b0>
+[Thread-7 (find_folder)]  >>Parent 301502315691 - Child: Folder 252650094832 -> Winter 2024 Media Release Forms
+[Thread-7 (find_folder)] API call get_collaborations
+[Thread-7 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc66f0>
+[Thread-5 (find_folder)] started folder look up for folder: Mentor Headshots - 262791714529
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8eb40>
+[Thread-7 (find_folder)] Flusing write to flies
+[Thread-7 (find_folder)] API call get_items (2)
+[Thread-7 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e0c0>
+[Thread-5 (find_folder)]  >>Parent 262791714529 - Child: Folder 281718243913 -> Fall 2024 Photos
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc6000>
+[Thread-3 (find_folder)] started folder look up for folder: Weekly Email Templates - 278684039291
+[Thread-3 (find_folder)] API call get_items
+[Thread-3 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f4a0>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 262791714529 - Child: Folder 262791606395 -> Pre-Winter 2024 Mentor Photos
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc6b10>
+[Thread-3 (find_folder)] API call get_items (2)
+[Thread-3 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f680>
+[Thread-7 (find_folder)] started folder look up for folder: Winter 2024 Media Release Forms - 252650094832
+[Thread-7 (find_folder)] API call get_items
+[Thread-7 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e780>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 262791714529 - Child: Folder 262794210609 -> Winter 2024 Mentor Photos
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc7560>
+[Thread-3 (find_folder)] Finished running
+[Thread-4 (find_folder)] - Joining Thread
+[Thread-5 (find_folder)] - Joining Thread
+[Thread-7 (find_folder)] API call get_items (2)
+[Thread-7 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8fbc0>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e210>
+[Thread-7 (find_folder)] started folder look up for folder: Posts for Approval - 304321185303
+[Thread-7 (find_folder)] API call get_items
+[Thread-7 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f4a0>
+[Thread-5 (find_folder)] started folder look up for folder: Fall 2024 Photos - 281718243913
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f6b0>
+[Thread-7 (find_folder)] API call get_items (2)
+[Thread-7 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ecf0>
+[Thread-7 (find_folder)] Finished running
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f8c0>
+[Thread-5 (find_folder)] started folder look up for folder: Pre-Winter 2024 Mentor Photos - 262791606395
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ff80>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ecf0>
+[Thread-5 (find_folder)] started folder look up for folder: Winter 2024 Mentor Photos - 262794210609
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc5700>
+[Thread-5 (find_folder)]  >>Parent 262794210609 - Child: Folder 272324195593 -> Photos that fell through the cracks
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106bc4cb0>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc5040>
+[Thread-5 (find_folder)] started folder look up for folder: Photos that fell through the cracks - 272324195593
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc4d10>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106bc79e0>
+[Thread-5 (find_folder)] started folder look up for folder: New Stock Photos - 278687554801
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e7e0>
+[Thread-5 (find_folder)]  >>Parent 278687554801 - Child: Folder 302557096600 -> SST
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8ed80>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 278687554801 - Child: Folder 302555738124 -> Thurs Trng
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8f470>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f4a0>
+[Thread-5 (find_folder)] started folder look up for folder: SST - 302557096600
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8e780>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f320>
+[Thread-5 (find_folder)] started folder look up for folder: Thurs Trng - 302555738124
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8fb00>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f320>
+[Thread-5 (find_folder)] started folder look up for folder: Online Orientation Website Redesign - 278687550001
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f470>
+[Thread-5 (find_folder)]  >>Parent 278687550001 - Child: Folder 279520492784 -> Module Blue Prints
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8f440>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)]  >>Parent 278687550001 - Child: Folder 278687571601 -> Module Screen Shots
+[Thread-5 (find_folder)] API call get_collaborations
+[Thread-5 (find_folder)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x106b8e960>
+[Thread-5 (find_folder)] Flusing write to flies
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f380>
+[Thread-5 (find_folder)] started folder look up for folder: Module Blue Prints - 279520492784
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8db20>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ff50>
+[Thread-5 (find_folder)] started folder look up for folder: Module Screen Shots - 278687571601
+[Thread-5 (find_folder)] API call get_items
+[Thread-5 (find_folder)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8ecf0>
+[Thread-5 (find_folder)] API call get_items (2)
+[Thread-5 (find_folder)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x106b8f920>
+[Thread-5 (find_folder)] Finished running
+[Thread-6 (find_folder)] - Joining Thread
+[Thread-7 (find_folder)] - Joining Thread
