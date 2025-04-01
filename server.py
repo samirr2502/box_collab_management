@@ -2,7 +2,7 @@ from flask import Flask, request
 import api_connect
 import main_threads
 from boxsdk import BoxAPIException
-
+PORT = 5001
 app = Flask(__name__)
 
 @app.route("/")
@@ -27,4 +27,4 @@ def callback():
     return f"{auth_code}"
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(port=PORT)

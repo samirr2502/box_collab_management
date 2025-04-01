@@ -11582,3 +11582,6 @@ started folder look up:47596547829
 [Thread-1 (process_request_thread)] API call get_collaborations
 [Thread-1 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10308fdd0>
 [Thread-1 (process_request_thread)] Flusing write to flies
+[Thread-1 (process_request_thread)]  >>Parent 48426780889 - Child: Folder 48426667475 -> March
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10308dcd0>
