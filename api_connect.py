@@ -6,7 +6,7 @@ CLIENT_SECRET = "aInyr3WzN8XlOEyZYy8yptsD6siBHW5d"
 AUTH_CODE = ''
 ACCESS_TOKEN = ''
 REFRESH_TOKEN =''
-
+DEV_TOKEN ='vqLglXF0W2h7PjDCZ1UfAijEQP73a2zI'
 REDIRECT_URI = "http://127.0.0.1:5000"
 token_url = "https://api.box.com/oauth2/token"
 
@@ -18,8 +18,10 @@ data_refresh = {
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
     }
-def send_post_request(code):
+def get_access_token(code):
     AUTH_CODE = code
+    #Uncomment the following line to use DEV_TOKEN
+    #AUTH_CODE = DEV_TOKEN
     data_token = {
         "grant_type": "authorization_code",
         "code": AUTH_CODE,
@@ -51,7 +53,7 @@ def refresh_token():
     return ACCESS_TOKEN, REFRESH_TOKEN
         
 def handle_box_exception(file,e):
-    print(f"Failed to run box api: HTTP {e.status} - {e.message}\n")
+    print(f"Failed to run box api: HTTP {e.status} - {e.message} - {e.getResponse}\n")
     file.write(f"Failed to run box api: HTTP {e.status} - {e.message}\n")
     if e.status == 404:
         print("Folder not found!\n")
@@ -59,7 +61,8 @@ def handle_box_exception(file,e):
         print("Trying to refresh token!\n")
         file.write("Trying to refresh token!\n")
         refresh_token()
-        
+    elif e.status == 401:
+        print("No permissions [refresh token might have failed]")
     elif e.status == 403:
         print("No permission to access this folder!\n")
         file.write("No permission to access this folder!\n")

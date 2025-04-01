@@ -3,7 +3,7 @@ import requests
 import webbrowser
 
 CLIENT_ID = "020r4pyyewrt5si70y5mtvsg4g6kl3qq"
-REDIRECT_URI = "http://127.0.0.1:5001"
+REDIRECT_URI = "http://127.0.0.1:5000"
 
 
 
