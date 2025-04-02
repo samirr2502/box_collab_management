@@ -1,0 +1,38 @@
+box connection made: <boxsdk.client.client.Client object at 0x000002B6B99E5160>
+
+started folder look up:314801509226
+[MainThread] started folder look up for folder: Test_remove_users - 314801509226
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B8F312B0>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B99E63C0>
+[MainThread] started folder look up for folder: F1 - 314802594772
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B99DE350>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B99DE0D0>
+[MainThread] started folder look up for folder: F1_1 - 314802018639
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B99DE490>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B99DDF90>
+[MainThread] started folder look up for folder: F1_2 - 314801128756
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B991AD70>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B991A9E0>
+[MainThread] started folder look up for folder: F2 - 314801990012
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B991AFD0>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B991A9E0>
+[MainThread] started folder look up for folder: F2_1 - 314802706829
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B99C8290>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B99C9130>
+[MainThread] started folder look up for folder: F3 - 314803162828
+[MainThread] API call get_collaborations
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x000002B6B99A9D00>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002B6B99A9F20>
