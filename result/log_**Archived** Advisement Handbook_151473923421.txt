@@ -1,0 +1,505 @@
+box connection made: <boxsdk.client.client.Client object at 0x1042a2bd0>
+
+started folder look up:151473923421
+[Thread-Main] API call get_collaborations
+[Thread-Main] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3e60>
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,640570845,OIT-SS-TSE-SU,None,151473923421,**Archived** Advisement Handbook,12347971831
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,6329046104,Julie Franklin,jlf@byu.edu,151473923421,**Archived** Advisement Handbook,31743558803
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,215305915,Barry Allred,bka6@byu.edu,151473923421,**Archived** Advisement Handbook,35127459107
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,2604185538,Kristen Jensen,kk258@byu.edu,151473923421,**Archived** Advisement Handbook,35125689223
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3212981996,Christian Faulconer,cjf2@byu.edu,151473923421,**Archived** Advisement Handbook,52711684372
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3213077102,Maren Fischer,mlfish@byu.edu,151473923421,**Archived** Advisement Handbook,35125435638
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3213121327,Joshua Richey,jlr46@byu.edu,151473923421,**Archived** Advisement Handbook,35127457907
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3286518040,Lori Gardiner,lg5@byu.edu,151473923421,**Archived** Advisement Handbook,52670510090
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,10247113371,Richard Osguthorpe,ro2@byu.edu,151473923421,**Archived** Advisement Handbook,43224014849
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,13400818136,Taylor Adams,tay5492@byu.edu,151473923421,**Archived** Advisement Handbook,51766158936
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,20275825545,Carolee Sanders,scarole@byu.edu,151473923421,**Archived** Advisement Handbook,43224017249
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19957744412,o.College of Nursing - Advisement - 00002793-SUB,None,151473923421,**Archived** Advisement Handbook,56237450142
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956253611,o.McKay School Education Advisement Center - 00001347-SUB,None,151473923421,**Archived** Advisement Handbook,56237518967
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19994874342,o.Undergraduate Education - Dean's Office - 10002024-SUB,None,151473923421,**Archived** Advisement Handbook,56238133848
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956487096,o.Registrar's Office - 00001172-SUB,None,151473923421,**Archived** Advisement Handbook,56239163381
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956973527,o.Life Sciences Advisement - 00001325-SUB,None,151473923421,**Archived** Advisement Handbook,56240490804
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956743048,o.Advisement Coll of Engineering - 00000955-SUB,None,151473923421,**Archived** Advisement Handbook,56240493204
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19955647161,o.Careers & Experiential Learning - 00003511-SUB,None,151473923421,**Archived** Advisement Handbook,56240495604
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19998062147,o.Advisement- College of Fine Arts and Communica - 00000578-SUB,None,151473923421,**Archived** Advisement Handbook,56240498004
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19955521725,o.University Advisement Center - 00000331-SUB,None,151473923421,**Archived** Advisement Handbook,56240500404
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19955817229,o.Preprofessional Advisement Center - 00000403-SUB,None,151473923421,**Archived** Advisement Handbook,56240502804
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956013981,o.Kennedy International Center - 00000649-SUB,None,151473923421,**Archived** Advisement Handbook,56240505204
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956373292,o.Multicultural - 00000716-SUB,None,151473923421,**Archived** Advisement Handbook,56240507604
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956201568,o.Academic Advisement Center - 00001524-SUB,None,151473923421,**Archived** Advisement Handbook,56240510004
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19956890006,o.International Student and Scholar Services - 00000985-SUB,None,151473923421,**Archived** Advisement Handbook,56240512404
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19997973487,o.Advisement Computing- Math and Science - 00000430-SUB,None,151473923421,**Archived** Advisement Handbook,56240519604
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19955533759,o.Humanities Advisement & Careers - 00000953-SUB,None,151473923421,**Archived** Advisement Handbook,56240522004
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,19961383097,o.Athletics - Academic Advisement - 00002844-SUB,None,151473923421,**Archived** Advisement Handbook,56240524404
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],Group,20306790959,o.Title IX - 00002895,None,151473923421,**Archived** Advisement Handbook,58513211161
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3213251939,Randa Alvord,ranalv@byu.edu,151473923421,**Archived** Advisement Handbook,35754191854
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3213474333,Logan Gillette,lgg2@byu.edu,151473923421,**Archived** Advisement Handbook,35172300620
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3323111894,Janilyn Featherstone,janilynf@byu.edu,151473923421,**Archived** Advisement Handbook,56922674178
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3337774397,Nathan Walch,nfw3@byu.edu,151473923421,**Archived** Advisement Handbook,56955455970
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3389492667,Elizabeth Liechty,bliechty@byu.edu,151473923421,**Archived** Advisement Handbook,35173151886
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3400682265,Casey Williams,caseyjow@byu.edu,151473923421,**Archived** Advisement Handbook,35127926787
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3483304534,Lesa Snyder,lesam@byu.edu,151473923421,**Archived** Advisement Handbook,35754460870
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3537893159,Vika Filimoeatu,vsanft@byu.edu,151473923421,**Archived** Advisement Handbook,35172506691
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3541889729,Janalyn Mergist,jlm43@byu.edu,151473923421,**Archived** Advisement Handbook,35172097723
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3558725748,Heidi Engh,heidimae@byu.edu,151473923421,**Archived** Advisement Handbook,56955969462
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3604540935,James Crane,jnc2@byu.edu,151473923421,**Archived** Advisement Handbook,35172299420
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3639228194,Julie Averett,jaa4@byu.edu,151473923421,**Archived** Advisement Handbook,35172463655
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3667163714,Caroline Thorne,besset@byu.edu,151473923421,**Archived** Advisement Handbook,35172462455
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3817121617,Lavdie Huff,lavdiei@byu.edu,151473923421,**Archived** Advisement Handbook,35172100123
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3904899957,Nicole Cuthbert,nrcuthbe@byu.edu,151473923421,**Archived** Advisement Handbook,35173153086
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,3978085182,Jennifer Bonnett,jb44@byu.edu,151473923421,**Archived** Advisement Handbook,35172590375
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,7209440497,Janelle Harkness,jmn34@byu.edu,151473923421,**Archived** Advisement Handbook,35172101323
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,13615220037,Chelsey Clay,cd55@byu.edu,151473923421,**Archived** Advisement Handbook,56236041390
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,14532719681,Bryan Walker,blw86@byu.edu,151473923421,**Archived** Advisement Handbook,56955971862
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,19506705278,Emily Platt,plattem8@byu.edu,151473923421,**Archived** Advisement Handbook,37814483072
+[{main_thread_name}] API call get().name
+[Thread-Main] API call get().name result: **Archived** Advisement Handbook
+[Thread-Main],User,27787465884,Marianne Cutchins,mc635@byu.edu,151473923421,**Archived** Advisement Handbook,47757603938
+[Thread-Main] API call get_items
+[Thread-Main] API call get_items result:<boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2510>
+[Thread-2 (process_request_thread)] started folder look up for folder: Advisement Handbook - 151472756385
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0740>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a38f0>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Advisor Job Level Change Information - 151473302569
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2f30>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3d40>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: AIM Screens - 151473021751
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2810>
+[Thread-2 (process_request_thread)]  >>Parent 151473021751 - Child: Folder 151473008997 -> ADV Screens
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3530>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473021751 - Child: Folder 151473134410 -> REC Screens
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a31d0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473021751 - Child: Folder 151473548309 -> REG Screens
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a36e0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473021751 - Child: Folder 151473175330 -> TRN Screens
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3fe0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0410>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV Screens - 151473008997
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a38f0>
+[Thread-2 (process_request_thread)]  >>Parent 151473008997 - Child: Folder 151473032551 -> Pictures
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a02c0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2ff0>
+[Thread-2 (process_request_thread)] started folder look up for folder: Pictures - 151473032551
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1d00>
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151472871023 -> ADV01
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3020>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151473422795 -> ADV07
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a0c80>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151473354428 -> ADV09
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3d70>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151473664210 -> ADV10
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2990>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151473656704 -> ADV11
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2f60>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151473265187 -> ADV16
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3f80>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151473163899 -> GRADAPP
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2750>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473032551 - Child: Folder 151472997139 -> GRADQ
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a18b0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3530>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV01 - 151472871023
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1d30>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0c80>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV07 - 151473422795
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3500>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1f10>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV09 - 151473354428
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1010>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2ae0>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV10 - 151473664210
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2ae0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1d30>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV11 - 151473656704
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1d30>
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151473208963 -> Add Other Requirements
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2ae0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151473723709 -> Building on Subs, waivers, nsb additions
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2270>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151473987992 -> Clearing an Other Requirement
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042653d0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151473514709 -> Filling multiple requirements
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x104267fe0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151473678998 -> Splitting a Class
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2b40>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151474158626 -> Substituting a Transfer Course
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042660f0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 151473656704 - Child: Folder 151472996754 -> Substitution Errors
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x104265670>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1f40>
+[Thread-2 (process_request_thread)] started folder look up for folder: Add Other Requirements - 151473208963
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1010>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a03e0>
+[Thread-2 (process_request_thread)] started folder look up for folder: Building on Subs, waivers, nsb additions - 151473723709
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2270>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0230>
+[Thread-2 (process_request_thread)] started folder look up for folder: Clearing an Other Requirement - 151473987992
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0c80>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1550>
+[Thread-2 (process_request_thread)] started folder look up for folder: Filling multiple requirements - 151473514709
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1010>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a14c0>
+[Thread-2 (process_request_thread)] started folder look up for folder: Splitting a Class - 151473678998
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3350>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0c80>
+[Thread-2 (process_request_thread)] started folder look up for folder: Substituting a Transfer Course - 151474158626
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a22d0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1550>
+[Thread-2 (process_request_thread)] started folder look up for folder: Substitution Errors - 151472996754
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1550>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1610>
+[Thread-2 (process_request_thread)] started folder look up for folder: ADV16 - 151473265187
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1010>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1d30>
+[Thread-2 (process_request_thread)] started folder look up for folder: GRADAPP - 151473163899
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2ba0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1940>
+[Thread-2 (process_request_thread)] started folder look up for folder: GRADQ - 151472997139
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0d10>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a27e0>
+[Thread-2 (process_request_thread)] started folder look up for folder: REC Screens - 151473134410
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2540>
+[Thread-2 (process_request_thread)]  >>Parent 151473134410 - Child: Folder 151474048978 -> Pictures
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3bc0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2ea0>
+[Thread-2 (process_request_thread)] started folder look up for folder: Pictures - 151474048978
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2e10>
+[Thread-2 (process_request_thread)]  >>Parent 151474048978 - Child: Folder 151473676931 -> REC01
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a3fb0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1df0>
+[Thread-2 (process_request_thread)] started folder look up for folder: REC01 - 151473676931
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a10d0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2ab0>
+[Thread-2 (process_request_thread)] started folder look up for folder: REG Screens - 151473548309
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3080>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a27b0>
+[Thread-2 (process_request_thread)] started folder look up for folder: TRN Screens - 151473175330
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3860>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0590>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: FERPA - 151474022792
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3d70>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0aa0>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Forms and Letters - 151474031623
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0e90>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a07a0>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Graduation Processing and Evaluation - 151473269101
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0b90>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a1460>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: MAPs - 205166228009
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3c20>
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205166260811 -> 2015
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a2de0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205169708113 -> 2016
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a1b20>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205169595485 -> 2017
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a26f0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205164685058 -> 2018
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a0a10>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205168707096 -> 2019
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a13a0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205165092422 -> 2020
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a0800>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205165238502 -> 2021
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a1190>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)]  >>Parent 205166228009 - Child: Folder 205169751352 -> 2022
+[Thread-2 (process_request_thread)] API call get_collaborations
+[Thread-2 (process_request_thread)]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1042a00e0>
+[Thread-2 (process_request_thread)] Flusing write to flies
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a21b0>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2015 - 205166260811
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104265ee0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104267710>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2016 - 205169708113
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2c60>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2960>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2017 - 205169595485
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104266690>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042661b0>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2018 - 205164685058
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3080>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0170>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2019 - 205168707096
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104266e10>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104265a00>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2020 - 205165092422
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3bc0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a35c0>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2021 - 205165238502
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104021be0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x104265280>
+[Thread-2 (process_request_thread)] started folder look up for folder: 2022 - 205169751352
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a15e0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3680>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: New MyMAP Videos - 263959774997
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103f96cf0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a3260>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Policies - 151473178352
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103f96cf0>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2f60>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Programs - 151473161318
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103f96c30>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0e30>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Reference - 151473940107
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103f96c30>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a2150>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Registration - 151473077138
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103f96c30>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a0c80>
+[Thread-2 (process_request_thread)] Finished running
+[Thread-2 (process_request_thread)] started folder look up for folder: Transfer Credit - 151473084381
+[Thread-2 (process_request_thread)] API call get_items
+[Thread-2 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103f96c30>
+[Thread-2 (process_request_thread)] API call get_items (2)
+[Thread-2 (process_request_thread)] API call get_items (2) result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1042a02c0>
+[Thread-2 (process_request_thread)] Finished running
