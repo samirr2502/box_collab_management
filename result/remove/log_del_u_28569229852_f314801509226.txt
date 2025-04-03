@@ -1,0 +1,38 @@
+box connection made: <boxsdk.client.client.Client object at 0x104ff2ed0>
+
+started folder look up:314801509226
+[Thread-1 (process_request_thread)] started folder look up for folder: Test_remove_users - 314801509226
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a57860>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a57a40>
+[Thread-1 (process_request_thread)] started folder look up for folder: F1 - 314802594772
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a57e30>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a55d60>
+[Thread-1 (process_request_thread)] started folder look up for folder: F1_1 - 314802018639
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a57740>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a55b20>
+[Thread-1 (process_request_thread)] started folder look up for folder: F1_2 - 314801128756
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a57140>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a57bf0>
+[Thread-1 (process_request_thread)] started folder look up for folder: F2 - 314801990012
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a56a50>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a55a60>
+[Thread-1 (process_request_thread)] started folder look up for folder: F2_1 - 314802706829
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a57fb0>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a578f0>
+[Thread-1 (process_request_thread)] started folder look up for folder: F3 - 314803162828
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x105a57bf0>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x105a57350>

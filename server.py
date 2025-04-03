@@ -11,8 +11,6 @@ def callback():
     auth_code = request.args.get("code")  # Get the authorization code
     print(f"authcode: {auth_code}\n")
     try:
-        access_token, refresh_token = api_connect.get_access_token(auth_code)
-        print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
         option = -1
         while(option != 2):
             option = input("Select an option [0-1-2]\n [0]Find Collabs\n [1]Remove User\n [2]Exit:\n")
@@ -20,6 +18,9 @@ def callback():
             thread_base = 0
 
             if option == "0":
+                access_token, refresh_token = api_connect.get_access_token(auth_code)
+                print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
+                
                 folder_id = input("File ID: ")
                 thread_base = input("Select an option [0/1]\n" +
                                     "[0] No\n[1] Yes:\n")
@@ -38,6 +39,8 @@ def callback():
 
             
             elif option == "1":
+                access_token, refresh_token = api_connect.get_access_token(auth_code)
+                print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
                 print(f"Start typing... {option}\n")
                 user_id = input("User ID: ")
                 folder_id = input("Folder to remove from\n" +
@@ -54,7 +57,7 @@ def callback():
                     print(f"Unexpected error during user removal: {e}")
             
             elif option == "2":
-                break
+                return f"{option} ret"
 
     except BoxAPIException as e:
         print("BoxAPIException caught during initial access token retrieval.\n")
