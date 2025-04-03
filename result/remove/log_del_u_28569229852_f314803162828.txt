@@ -1,8 +1,8 @@
-box connection made: <boxsdk.client.client.Client object at 0x0000022AF92E5160>
+box connection made: <boxsdk.client.client.Client object at 0x101526f90>
 
 started folder look up:314803162828
 [MainThread] started folder look up for folder: F3 - 314803162828
 [MainThread] API call get_collaborations
-[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x0000022AF89312B0>
-collabs: ['61960761512']deleting collab: 61960761512[MainThread] API call get_items
-[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x0000022AF92E5400>
+[MainThread] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1031afc20>
+collabs: [][MainThread] API call get_items
+[MainThread]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1031acc80>

@@ -31,21 +31,19 @@ def look_into_folders(client,file,removed_from, user_id,folder_id):
 
     print(f'collabs: {collabs}')
     file.write(f'collabs: {collabs}')
-    with lock:
-        for collab in collabs:
-            print(f'deleting collab: {collab}')
-            file.write(f'deleting collab: {collab}')
-            client.collaboration(collab).delete()
+    for collab in collabs:
+        print(f'deleting collab: {collab}')
+        file.write(f'deleting collab: {collab}')
+        client.collaboration(collab).delete()
             
     
-    with lock:
-        print(f'[{thread_name}] API call get_items\n')
-        file.write(f'[{thread_name}] API call get_items\n')
-        
-        items = client.folder(folder_id=folder_id).get_items()
-   
-        print(f'[{thread_name}] API call get_items result: {items}\n')
-        file.write(f'[{thread_name}]API call get_items result: {items}\n')
+    print(f'[{thread_name}] API call get_items\n')
+    file.write(f'[{thread_name}] API call get_items\n')
+    
+    items = client.folder(folder_id=folder_id).get_items()
+
+    print(f'[{thread_name}] API call get_items result: {items}\n')
+    file.write(f'[{thread_name}]API call get_items result: {items}\n')
 
     #Recursive call look_into_folders from all the folders
     for item in items:
@@ -100,4 +98,4 @@ def main(access_token,user_id, folder_id,thread_base):
 
 
 #local test
-main(DEV_TOKEN, "28569229852","314803162828",0)
+# main(DEV_TOKEN, "23663698729","314801509226",0)
