@@ -1,4 +1,5 @@
 import requests
+import time
 CLIENT_ID = "020r4pyyewrt5si70y5mtvsg4g6kl3qq"
 CLIENT_SECRET = "aInyr3WzN8XlOEyZYy8yptsD6siBHW5d"
 
@@ -12,12 +13,7 @@ token_url = "https://api.box.com/oauth2/token"
 
 #print(f'authcode: {AUTH_CODE}\n')
 
-data_refresh = {
-        "grant_type": "refresh_token",
-        "refresh_token": REFRESH_TOKEN,
-        "client_id": CLIENT_ID,
-        "client_secret": CLIENT_SECRET,
-    }
+
 def get_access_token(code):
     AUTH_CODE = code
     #Uncomment the following line to use DEV_TOKEN
@@ -39,10 +35,21 @@ def get_access_token(code):
     # print(f"Refresh Token: {refresh_token}")
     return ACCESS_TOKEN, REFRESH_TOKEN
 
-def refresh_token():
+def refresh_token(refresh_token):
     # Request body
-    
-    response = requests.post(token_url, data=data_refresh)
+    print("attempting to refresh token after 10 seconds")
+    data_refresh = {
+    "grant_type": "refresh_token",
+    "refresh_token": refresh_token,
+    "client_id": CLIENT_ID,
+    "client_secret": CLIENT_SECRET,
+    }
+
+    headers = {
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+
+    response = requests.post(token_url, data=data_refresh, headers=headers)
     if response.status_code == 200:
         tokens = response.json()
         ACCESS_TOKEN = tokens["access_token"]
@@ -53,7 +60,7 @@ def refresh_token():
     return ACCESS_TOKEN, REFRESH_TOKEN
         
 def handle_box_exception(file,e):
-    refresh_token()
+    refresh_token(REFRESH_TOKEN)
 
     print(f"Failed to run box api: HTTP {e.status} - {e.message} - {e.getResponse}\n")
     file.write(f"Failed to run box api: HTTP {e.status} - {e.message}\n")

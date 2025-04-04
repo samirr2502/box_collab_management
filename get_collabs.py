@@ -1,4 +1,5 @@
 from boxsdk import Client, OAuth2, BoxAPIException
+import time
 import threading
 import api_connect
 #GLOBAL VARIABLES
@@ -7,11 +8,13 @@ REFRESH_TOKEN= ''
 DEV_TOKEN = "ST5Sr32IgJnUGnZcjbZApD5kZod6F9VW"
 token_url = "https://api.box.com/oauth2/token"
 USE_TOKEN = ACCESS_TOKEN
+TIME_TO_REFRESH = 50*60
 
 lock = threading.Lock()
 thread_base= 1
 
 def find_collabs(thread_name,client, file,collab_file,parent_folder_id, folder_id, folder_name, collaborators):
+
     parent_collab_ids =[]
     print(f'[{thread_name}] API call get_collaborations\n')
     file.write(f'[{thread_name}] API call get_collaborations\n')
@@ -43,7 +46,11 @@ def find_items(thread_name,client, file, folder_id):
     file.write(f'[{thread_name}]API call get_items result: {items}\n')
     return items
 
-def look_into_folders(client,file,collab_file, parent_folder, folder , collaborators):
+def look_into_folders(client,refresh_token,file,collab_file, parent_folder, folder , collaborators,start):
+    end = time.time()
+    print(f'{end}- {start} = {end-start}')
+    if (end -start) >= TIME_TO_REFRESH:
+        api_connect.refresh_token(refresh_token)
     thread_name = threading.current_thread().name
     # log = f'[{thread_name}] started folder look up for folder: {folder.name} - {folder.id}\n'
     # file.write(log)
@@ -63,19 +70,21 @@ def look_into_folders(client,file,collab_file, parent_folder, folder , collabora
     for item in find_items(thread_name, client,file, folder_id):
         type = item.type.capitalize()
         if (type=="Folder"):
-            look_into_folders(client,file, collab_file,folder,item, collaborators)
+            look_into_folders(client,refresh_token,file, collab_file,folder,item, collaborators,start)
 
-def main(access_token, folder_id,thread_base):
+def main(access_token, refresh_token,folder_id,thread_base):
     thread_base = thread_base
 
     ACCESS_TOKEN = access_token
     USE_TOKEN = ACCESS_TOKEN
-
+    REFRESH_TOKEN=refresh_token
 
     print("started box connection\n")
     #Create Connection 
     auth = OAuth2(client_id=None, client_secret=None, access_token=USE_TOKEN)
     client = Client(auth)
+    start= time.time()
+
     print("[{main_thread_name}] API call get().name\n")
     folder_name = client.folder(folder_id=folder_id).get().name
     
@@ -104,7 +113,7 @@ def main(access_token, folder_id,thread_base):
     #Find parent folder
     find_collabs("thread_name", client, file, collab_file, None, folder_id, folder_name, collaborators)
 
-    look_into_folders(client,file,collab_file,None,folder,collaborators)
+    look_into_folders(client,refresh_token,file,collab_file,None,folder,collaborators, start)
     file.close()
     collab_file.close()
     #Thead code

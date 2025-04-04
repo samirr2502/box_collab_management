@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+import time
 import requests
 import webbrowser
 import api_connect
@@ -9,7 +10,7 @@ from boxsdk import BoxAPIException
 PORT = 5000
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/not_in_use")
 def callback():
     template = render_template('index.html')
     return template
@@ -30,18 +31,20 @@ def get_auth():
     print(f"Response: {response}")
     return "redirecting "
 
-
-
-@app.route("/auth")
+#Toggle
+#  for testing: use "/"
+#  for prod: use "/auth"
+#@app.route("/auth")
+@app.route("/")
 def auth():
     auth_code = request.args.get("code")  # Get the authorization code
     print(f"authcode: {auth_code}\n")
     template = render_template("home.html")
     
     #Comment Return template and uncomment 'try' to test in the console
-    return template
+    # return template
 
-    """
+    
     try:
         option = -1
         while(option != 2):
@@ -60,7 +63,8 @@ def auth():
                 print(f"You entered: {folder_id}")
                 print("Start running main_threads\n")
                 try:
-                    get_collabs.main(access_token, folder_id, thread_base)
+                    
+                    get_collabs.main(access_token,refresh_token, folder_id, thread_base)
                     print("Finish running main_threads\n")
                 except BoxAPIException as e:
                     print(f"BoxAPIException caught while finding collabs: {e}")
@@ -90,6 +94,8 @@ def auth():
             
             elif option == "2":
                 return f"{option} ret"
+            else:
+                option =""
 
     except BoxAPIException as e:
         print("BoxAPIException caught during initial access token retrieval.\n")
@@ -97,6 +103,6 @@ def auth():
     except Exception as e:
         print(f"Unexpected error during initial access token retrieval: {e}")
         return f"{auth_code}"
-    """
+    #"""
 if __name__ == "__main__":
     app.run(port=PORT)
