@@ -50,7 +50,7 @@ def look_into_folders(client,refresh_token,file,collab_file, parent_folder, fold
     end = time.time()
     print(f'{end}- {start} = {end-start}')
     if (end -start) >= TIME_TO_REFRESH:
-        api_connect.refresh_token(refresh_token)
+        ACCESS_TOKEN, refresh_token= api_connect.refresh_token(refresh_token)
     thread_name = threading.current_thread().name
     # log = f'[{thread_name}] started folder look up for folder: {folder.name} - {folder.id}\n'
     # file.write(log)
