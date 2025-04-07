@@ -5,15 +5,15 @@ import api_connect
 #GLOBAL VARIABLES
 ACCESS_TOKEN = ''
 REFRESH_TOKEN= ''
-DEV_TOKEN = "ST5Sr32IgJnUGnZcjbZApD5kZod6F9VW"
+DEV_TOKEN = "9i9sNk1rYh1twyfm1A2VNhx1U5FjNDz3"
 token_url = "https://api.box.com/oauth2/token"
 USE_TOKEN = ACCESS_TOKEN
-TIME_TO_REFRESH = 50*60
+TIME_TO_REFRESH = 10
 
 lock = threading.Lock()
 thread_base= 1
 
-def find_collabs(thread_name,client, file,collab_file,parent_folder_id, folder_id, folder_name, collaborators):
+def find_collabs(thread_name,client, file,collab_file,parent_folder_id, folder_id, folder_name):
 
     parent_collab_ids =[]
     print(f'[{thread_name}] API call get_collaborations\n')
@@ -30,7 +30,7 @@ def find_collabs(thread_name,client, file,collab_file,parent_folder_id, folder_i
         user = collab.accessible_by
         if (user.id not in parent_collab_ids):
         # if(user.name not in collaborators):
-            collaborators.append(user.name)
+            # collaborators.append(user.name)
             user_login = getattr(user, "login", None) 
 
             print(f'[{thread_name}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{collab.id}\n')
@@ -109,13 +109,37 @@ def main(access_token, refresh_token,folder_id,thread_base):
     print(f"started folder look up:{folder_id}\n")
     file.write(f"started folder look up:{folder_id}\n")
 
-    folder = client.folder(folder_id=folder_id).get()
-    #Find parent folder
-    find_collabs("thread_name", client, file, collab_file, None, folder_id, folder_name, collaborators)
 
-    look_into_folders(client,refresh_token,file,collab_file,None,folder,collaborators, start)
+    folder = client.folder(folder_id=folder_id).get()
+    #Find parent folder collabs
+    find_collabs("thread_name", client, file, collab_file, None, folder_id, folder_name)
+    #Try with stack instead of Recursive
+    folder_stack = []
+    folder_stack.append(folder_id)
+    while len(folder_stack) !=0:
+        #Check time to refresh token
+        end = time.time()
+        print(f'{end}- {start} = {end-start}')
+        if (end -start) >= TIME_TO_REFRESH:
+            start = time.time()
+            ACCESS_TOKEN, refresh_token= api_connect.refresh_token(refresh_token)
+            print(f"finished refreshing token sleeping 5 secs start: {start}\n")
+            time.sleep(5)
+        
+        working_folder = folder_stack.pop()
+        working_folder_name = client.folder(folder_id=working_folder).get().name
+        find_collabs("stack_loop", client, file, collab_file,None, working_folder,working_folder_name)
+        for item in find_items("stack_loop", client,file, working_folder):
+            type = item.type.capitalize()
+            if (type=="Folder"):
+                folder_stack.append(item.id)
+        
+        # folder_ids = [i for i in list(folders)]
+    # look_into_folders(client,refresh_token,file,collab_file,None,folder,collaborators, start)
     file.close()
     collab_file.close()
+
+
     #Thead code
     """
     # #Create collaborators list to track who's been added
@@ -175,4 +199,4 @@ def main(access_token, refresh_token,folder_id,thread_base):
     #     thread.join()"
     """
 #Uncaomment to Test Local
-#main(DEV_TOKEN, "314801509226",0)
+#main(DEV_TOKEN,"", "314801509226",0)

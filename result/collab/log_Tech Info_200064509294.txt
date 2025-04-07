@@ -1,0 +1,586 @@
+box connection made: <boxsdk.client.client.Client object at 0x1069d6600>
+
+started folder look up:200064509294
+[thread_name] API call get_collaborations
+[thread_name]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719e780>
+[thread_name],Group,640570845,OIT-SS-TSE-SU,None,200064509294,Tech Info,12347831050
+[thread_name],User,11694684547,Justin Collings,jmc255@byu.edu,200064509294,Tech Info,45818812931
+[thread_name],User,3476769917,Becky Crawford,rlc@byu.edu,200064509294,Tech Info,13305356809
+[thread_name],User,3503914650,David Waddell,dlw34@byu.edu,200064509294,Tech Info,37017703843
+[thread_name],User,3523864959,Daidre Hulick,daidreh@byu.edu,200064509294,Tech Info,13214013775
+[thread_name],User,3578435843,Bryce Bunting,bbunting@byu.edu,200064509294,Tech Info,36879307971
+[thread_name],User,8191241904,Sandi Bennett,sbenne58@byu.edu,200064509294,Tech Info,16563748185
+[thread_name],User,9941347947,Madeline McCauley,mmccau01@byu.edu,200064509294,Tech Info,55911452493
+[thread_name],User,10577922974,Lindsey Blau,lp526@byu.edu,200064509294,Tech Info,43814780164
+[thread_name],User,11505212547,Deborah Hall,ddm6@byu.edu,200064509294,Tech Info,39904989948
+[thread_name],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,200064509294,Tech Info,42610603264
+[thread_name],User,19951858619,Rebekah Dayton,rd2003@byu.edu,200064509294,Tech Info,53671699158
+[thread_name],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,200064509294,Tech Info,39904987548
+[thread_name],User,23663698729,Samir Rodriguez,samirr14@byu.edu,200064509294,Tech Info,52900050114
+[thread_name],User,28550113604,Haylie Morgan,haylielm@byu.edu,200064509294,Tech Info,48142854203
+[thread_name],User,28569229852,Lonni Burdett,loni2020@byu.edu,200064509294,Tech Info,61961008558
+[thread_name],User,35709042636,Lawson Archibald,larchib7@byu.edu,200064509294,Tech Info,57262091540
+[thread_name],User,19951858619,Rebekah Dayton,rd2003@byu.edu,200064509294,Tech Info,53514803012
+[thread_name],User,31217142168,Amy Sessions,asesh16@byu.edu,200064509294,Tech Info,58010257307
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719e360>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,200064509294,Tech Info,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,200064509294,Tech Info,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,200064509294,Tech Info,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,200064509294,Tech Info,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,200064509294,Tech Info,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,200064509294,Tech Info,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,200064509294,Tech Info,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,200064509294,Tech Info,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,200064509294,Tech Info,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,200064509294,Tech Info,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,200064509294,Tech Info,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,200064509294,Tech Info,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,200064509294,Tech Info,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,200064509294,Tech Info,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,200064509294,Tech Info,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,200064509294,Tech Info,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,200064509294,Tech Info,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,200064509294,Tech Info,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,200064509294,Tech Info,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f170>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719ea80>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,272315598266,Testing Instructions,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,272315598266,Testing Instructions,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,272315598266,Testing Instructions,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,272315598266,Testing Instructions,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,272315598266,Testing Instructions,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,272315598266,Testing Instructions,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,272315598266,Testing Instructions,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,272315598266,Testing Instructions,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,272315598266,Testing Instructions,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,272315598266,Testing Instructions,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,272315598266,Testing Instructions,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,272315598266,Testing Instructions,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,272315598266,Testing Instructions,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,272315598266,Testing Instructions,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,272315598266,Testing Instructions,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,272315598266,Testing Instructions,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,272315598266,Testing Instructions,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,272315598266,Testing Instructions,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,272315598266,Testing Instructions,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719fec0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f2f0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,305820399723,Tech Tip,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,305820399723,Tech Tip,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,305820399723,Tech Tip,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,305820399723,Tech Tip,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,305820399723,Tech Tip,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,305820399723,Tech Tip,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,305820399723,Tech Tip,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,305820399723,Tech Tip,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,305820399723,Tech Tip,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,305820399723,Tech Tip,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,305820399723,Tech Tip,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,305820399723,Tech Tip,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,305820399723,Tech Tip,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,305820399723,Tech Tip,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,305820399723,Tech Tip,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,305820399723,Tech Tip,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,305820399723,Tech Tip,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,305820399723,Tech Tip,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,305820399723,Tech Tip,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719ffe0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f4a0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,272317179609,ODST Documents,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,272317179609,ODST Documents,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,272317179609,ODST Documents,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,272317179609,ODST Documents,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,272317179609,ODST Documents,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,272317179609,ODST Documents,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,272317179609,ODST Documents,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,272317179609,ODST Documents,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,272317179609,ODST Documents,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,272317179609,ODST Documents,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,272317179609,ODST Documents,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,272317179609,ODST Documents,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,272317179609,ODST Documents,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,272317179609,ODST Documents,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,272317179609,ODST Documents,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,272317179609,ODST Documents,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,272317179609,ODST Documents,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,272317179609,ODST Documents,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,272317179609,ODST Documents,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f890>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719ef00>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,290242108116,User Instructions,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,290242108116,User Instructions,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,290242108116,User Instructions,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,290242108116,User Instructions,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,290242108116,User Instructions,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,290242108116,User Instructions,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,290242108116,User Instructions,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,290242108116,User Instructions,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,290242108116,User Instructions,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,290242108116,User Instructions,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,290242108116,User Instructions,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,290242108116,User Instructions,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,290242108116,User Instructions,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,290242108116,User Instructions,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,290242108116,User Instructions,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,290242108116,User Instructions,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,290242108116,User Instructions,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,290242108116,User Instructions,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,290242108116,User Instructions,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f9b0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f0e0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,290242547007,Developer Instructions and Files,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,290242547007,Developer Instructions and Files,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,290242547007,Developer Instructions and Files,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,290242547007,Developer Instructions and Files,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,290242547007,Developer Instructions and Files,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,290242547007,Developer Instructions and Files,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,290242547007,Developer Instructions and Files,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,290242547007,Developer Instructions and Files,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,290242547007,Developer Instructions and Files,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,290242547007,Developer Instructions and Files,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,290242547007,Developer Instructions and Files,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,290242547007,Developer Instructions and Files,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,290242547007,Developer Instructions and Files,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,290242547007,Developer Instructions and Files,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,290242547007,Developer Instructions and Files,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,290242547007,Developer Instructions and Files,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,290242547007,Developer Instructions and Files,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,290242547007,Developer Instructions and Files,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,290242547007,Developer Instructions and Files,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719fec0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719c7a0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,275403863167,autoemail - Templates,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,275403863167,autoemail - Templates,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,275403863167,autoemail - Templates,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,275403863167,autoemail - Templates,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,275403863167,autoemail - Templates,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,275403863167,autoemail - Templates,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,275403863167,autoemail - Templates,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,275403863167,autoemail - Templates,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,275403863167,autoemail - Templates,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,275403863167,autoemail - Templates,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,275403863167,autoemail - Templates,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,275403863167,autoemail - Templates,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,275403863167,autoemail - Templates,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,275403863167,autoemail - Templates,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,275403863167,autoemail - Templates,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,275403863167,autoemail - Templates,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,275403863167,autoemail - Templates,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,275403863167,autoemail - Templates,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,275403863167,autoemail - Templates,58010257307
+[stack_loop],User,9863936163,Lenna Wilcox,lennabee@byu.edu,275403863167,autoemail - Templates,55440441426
+[stack_loop],User,21946229414,Emma Lambert,emmalamb@byu.edu,275403863167,autoemail - Templates,55440439026
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e0f0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f6e0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,275444793515,AutoEmailTemplates - Docs,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,275444793515,AutoEmailTemplates - Docs,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,275444793515,AutoEmailTemplates - Docs,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,275444793515,AutoEmailTemplates - Docs,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,275444793515,AutoEmailTemplates - Docs,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,275444793515,AutoEmailTemplates - Docs,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,275444793515,AutoEmailTemplates - Docs,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,275444793515,AutoEmailTemplates - Docs,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,275444793515,AutoEmailTemplates - Docs,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,275444793515,AutoEmailTemplates - Docs,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,275444793515,AutoEmailTemplates - Docs,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,275444793515,AutoEmailTemplates - Docs,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,275444793515,AutoEmailTemplates - Docs,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,275444793515,AutoEmailTemplates - Docs,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,275444793515,AutoEmailTemplates - Docs,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,275444793515,AutoEmailTemplates - Docs,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,275444793515,AutoEmailTemplates - Docs,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,275444793515,AutoEmailTemplates - Docs,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,275444793515,AutoEmailTemplates - Docs,58010257307
+[stack_loop],User,9863936163,Lenna Wilcox,lennabee@byu.edu,275444793515,AutoEmailTemplates - Docs,55440441426
+[stack_loop],User,21946229414,Emma Lambert,emmalamb@byu.edu,275444793515,AutoEmailTemplates - Docs,55440439026
+[stack_loop],User,32194314124,Jennifer Spiker,jspiker@byu.edu,275444793515,AutoEmailTemplates - Docs,55416239698
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f3e0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f2f0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,260726298334,Mentor Photos,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,260726298334,Mentor Photos,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,260726298334,Mentor Photos,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,260726298334,Mentor Photos,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,260726298334,Mentor Photos,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,260726298334,Mentor Photos,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,260726298334,Mentor Photos,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,260726298334,Mentor Photos,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,260726298334,Mentor Photos,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,260726298334,Mentor Photos,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,260726298334,Mentor Photos,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,260726298334,Mentor Photos,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,260726298334,Mentor Photos,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,260726298334,Mentor Photos,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,260726298334,Mentor Photos,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,260726298334,Mentor Photos,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,260726298334,Mentor Photos,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,260726298334,Mentor Photos,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,260726298334,Mentor Photos,58010257307
+[stack_loop],User,15505755166,JoAmber Rawlins,joamberj@byu.edu,260726298334,Mentor Photos,53548892595
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f3e0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f920>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,245366675450,Winter 2024 Mentor Photos,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,245366675450,Winter 2024 Mentor Photos,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,245366675450,Winter 2024 Mentor Photos,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,245366675450,Winter 2024 Mentor Photos,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,245366675450,Winter 2024 Mentor Photos,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,245366675450,Winter 2024 Mentor Photos,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,245366675450,Winter 2024 Mentor Photos,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,245366675450,Winter 2024 Mentor Photos,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,245366675450,Winter 2024 Mentor Photos,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,245366675450,Winter 2024 Mentor Photos,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,245366675450,Winter 2024 Mentor Photos,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,245366675450,Winter 2024 Mentor Photos,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,245366675450,Winter 2024 Mentor Photos,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,245366675450,Winter 2024 Mentor Photos,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,245366675450,Winter 2024 Mentor Photos,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,245366675450,Winter 2024 Mentor Photos,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,245366675450,Winter 2024 Mentor Photos,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,245366675450,Winter 2024 Mentor Photos,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,245366675450,Winter 2024 Mentor Photos,58010257307
+[stack_loop],User,15505755166,JoAmber Rawlins,joamberj@byu.edu,245366675450,Winter 2024 Mentor Photos,53548892595
+[stack_loop],User,15609877769,Emma Cloward,emmacc3@byu.edu,245366675450,Winter 2024 Mentor Photos,53798586415
+[stack_loop],User,29021546383,Marissa Huish,mehuish@byu.edu,245366675450,Winter 2024 Mentor Photos,53798584015
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f590>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f3e0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,260724914105,Pre-Winter 2024 Mentor Photos,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,58010257307
+[stack_loop],User,15505755166,JoAmber Rawlins,joamberj@byu.edu,260724914105,Pre-Winter 2024 Mentor Photos,53548892595
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719ff80>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f4d0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,304846129457,Lonni's Folder,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,304846129457,Lonni's Folder,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,304846129457,Lonni's Folder,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,304846129457,Lonni's Folder,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,304846129457,Lonni's Folder,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,304846129457,Lonni's Folder,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,304846129457,Lonni's Folder,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,304846129457,Lonni's Folder,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,304846129457,Lonni's Folder,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,304846129457,Lonni's Folder,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,304846129457,Lonni's Folder,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,304846129457,Lonni's Folder,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,304846129457,Lonni's Folder,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,304846129457,Lonni's Folder,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,304846129457,Lonni's Folder,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,304846129457,Lonni's Folder,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,304846129457,Lonni's Folder,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,304846129457,Lonni's Folder,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,304846129457,Lonni's Folder,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e510>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719fe60>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,312666143567,Excel Scripts,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,312666143567,Excel Scripts,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,312666143567,Excel Scripts,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,312666143567,Excel Scripts,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,312666143567,Excel Scripts,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,312666143567,Excel Scripts,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,312666143567,Excel Scripts,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,312666143567,Excel Scripts,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,312666143567,Excel Scripts,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,312666143567,Excel Scripts,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,312666143567,Excel Scripts,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,312666143567,Excel Scripts,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,312666143567,Excel Scripts,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,312666143567,Excel Scripts,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,312666143567,Excel Scripts,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,312666143567,Excel Scripts,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,312666143567,Excel Scripts,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,312666143567,Excel Scripts,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,312666143567,Excel Scripts,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e390>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f590>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307535302876,Backups,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307535302876,Backups,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307535302876,Backups,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307535302876,Backups,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307535302876,Backups,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307535302876,Backups,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307535302876,Backups,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307535302876,Backups,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307535302876,Backups,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307535302876,Backups,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307535302876,Backups,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307535302876,Backups,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307535302876,Backups,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307535302876,Backups,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307535302876,Backups,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307535302876,Backups,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307535302876,Backups,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307535302876,Backups,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307535302876,Backups,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f560>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719eb10>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307533666200,testProd4.9.24.tar,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307533666200,testProd4.9.24.tar,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307533666200,testProd4.9.24.tar,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307533666200,testProd4.9.24.tar,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307533666200,testProd4.9.24.tar,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307533666200,testProd4.9.24.tar,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307533666200,testProd4.9.24.tar,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307533666200,testProd4.9.24.tar,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307533666200,testProd4.9.24.tar,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307533666200,testProd4.9.24.tar,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307533666200,testProd4.9.24.tar,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307533666200,testProd4.9.24.tar,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307533666200,testProd4.9.24.tar,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307533666200,testProd4.9.24.tar,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307533666200,testProd4.9.24.tar,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307533666200,testProd4.9.24.tar,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307533666200,testProd4.9.24.tar,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307533666200,testProd4.9.24.tar,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307533666200,testProd4.9.24.tar,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719fe30>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719c7a0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307534938444,tree,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307534938444,tree,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307534938444,tree,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307534938444,tree,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307534938444,tree,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307534938444,tree,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307534938444,tree,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307534938444,tree,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307534938444,tree,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307534938444,tree,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307534938444,tree,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534938444,tree,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307534938444,tree,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307534938444,tree,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307534938444,tree,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307534938444,tree,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307534938444,tree,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534938444,tree,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307534938444,tree,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719fd40>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f2c0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307533191147,db,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307533191147,db,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307533191147,db,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307533191147,db,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307533191147,db,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307533191147,db,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307533191147,db,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307533191147,db,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307533191147,db,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307533191147,db,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307533191147,db,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307533191147,db,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307533191147,db,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307533191147,db,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307533191147,db,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307533191147,db,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307533191147,db,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307533191147,db,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307533191147,db,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f950>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719fa10>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307532785654,StuffToArchiveMaybeNeverUse,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307532785654,StuffToArchiveMaybeNeverUse,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e9c0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719e0c0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307534220730,trash,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307534220730,trash,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307534220730,trash,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307534220730,trash,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307534220730,trash,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307534220730,trash,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307534220730,trash,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307534220730,trash,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307534220730,trash,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307534220730,trash,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307534220730,trash,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534220730,trash,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307534220730,trash,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307534220730,trash,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307534220730,trash,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307534220730,trash,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307534220730,trash,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534220730,trash,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307534220730,trash,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719f2c0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1070b0ce0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307534420289,Phoenix,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307534420289,Phoenix,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307534420289,Phoenix,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307534420289,Phoenix,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307534420289,Phoenix,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307534420289,Phoenix,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307534420289,Phoenix,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307534420289,Phoenix,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307534420289,Phoenix,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307534420289,Phoenix,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307534420289,Phoenix,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534420289,Phoenix,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307534420289,Phoenix,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307534420289,Phoenix,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307534420289,Phoenix,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307534420289,Phoenix,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307534420289,Phoenix,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534420289,Phoenix,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307534420289,Phoenix,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10689bce0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f2f0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307534778366,uephoenix,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307534778366,uephoenix,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307534778366,uephoenix,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307534778366,uephoenix,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307534778366,uephoenix,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307534778366,uephoenix,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307534778366,uephoenix,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307534778366,uephoenix,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307534778366,uephoenix,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307534778366,uephoenix,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307534778366,uephoenix,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534778366,uephoenix,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307534778366,uephoenix,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307534778366,uephoenix,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307534778366,uephoenix,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307534778366,uephoenix,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307534778366,uephoenix,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534778366,uephoenix,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307534778366,uephoenix,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e0c0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f890>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307534759162,summerNSOreg,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307534759162,summerNSOreg,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307534759162,summerNSOreg,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307534759162,summerNSOreg,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307534759162,summerNSOreg,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307534759162,summerNSOreg,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307534759162,summerNSOreg,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307534759162,summerNSOreg,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307534759162,summerNSOreg,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307534759162,summerNSOreg,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307534759162,summerNSOreg,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534759162,summerNSOreg,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307534759162,summerNSOreg,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307534759162,summerNSOreg,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307534759162,summerNSOreg,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307534759162,summerNSOreg,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307534759162,summerNSOreg,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307534759162,summerNSOreg,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307534759162,summerNSOreg,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e4e0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f1a0>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307532043894,secure,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307532043894,secure,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307532043894,secure,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307532043894,secure,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307532043894,secure,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307532043894,secure,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307532043894,secure,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307532043894,secure,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307532043894,secure,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307532043894,secure,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307532043894,secure,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307532043894,secure,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307532043894,secure,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307532043894,secure,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307532043894,secure,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307532043894,secure,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307532043894,secure,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307532043894,secure,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307532043894,secure,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e4b0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10719f320>
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,57262091540
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,53514803012
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,307533846049,Fall+2023+NSO+Student+Registration_August+25,+2023_15.42,58010257307
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x10719e4b0>
