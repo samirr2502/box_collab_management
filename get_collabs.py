@@ -42,7 +42,7 @@ def find_items(thread_name,client, file, folder_id):
 
     print(f'[{thread_name}] API call get_items\n')
     file.write(f'[{thread_name}] API call get_items\n')
-    items = client.folder(folder_id=folder_id).get_items()
+    items = client.folder(folder_id=folder_id).get_items(sort="size", direction="DESC")
     print(f'[{thread_name}] API call get_items result: {items}\n')
     file.write(f'[{thread_name}]API call get_items result: {items}\n')
     return items
@@ -131,6 +131,8 @@ def main(access_token, refresh_token,folder_id,thread_base):
         find_collabs("stack_loop", client, file, collab_file,working_folder[1], working_folder[0],working_folder_name)
 
         items = find_items("stack_loop", client,file, working_folder[0])
+        # sorted_items = sorted(items, key=lambda x: x.size)  # Sort by name, case-insensitive
+
         for item in items:
             type = item.type.capitalize()
             if (type=="Folder"):
