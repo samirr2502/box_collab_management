@@ -2,13 +2,14 @@ from boxsdk import Client, OAuth2, BoxAPIException
 import time
 import threading
 import api_connect
+import json
 #GLOBAL VARIABLES
 ACCESS_TOKEN = ''
 REFRESH_TOKEN= ''
-DEV_TOKEN = "9i9sNk1rYh1twyfm1A2VNhx1U5FjNDz3"
+DEV_TOKEN = "5183QNqjzhEaOdwGoGq4IKZiQCq5mYAd"
 token_url = "https://api.box.com/oauth2/token"
 USE_TOKEN = ACCESS_TOKEN
-TIME_TO_REFRESH = 10
+TIME_TO_REFRESH = 50*60
 
 lock = threading.Lock()
 thread_base= 1
@@ -115,7 +116,7 @@ def main(access_token, refresh_token,folder_id,thread_base):
     find_collabs("thread_name", client, file, collab_file, None, folder_id, folder_name)
     #Try with stack instead of Recursive
     folder_stack = []
-    folder_stack.append(folder_id)
+    folder_stack.append((folder_id,None))
     while len(folder_stack) !=0:
         #Check time to refresh token
         end = time.time()
@@ -125,14 +126,17 @@ def main(access_token, refresh_token,folder_id,thread_base):
             ACCESS_TOKEN, refresh_token= api_connect.refresh_token(refresh_token)
             print(f"finished refreshing token sleeping 5 secs start: {start}\n")
             time.sleep(5)
-        
         working_folder = folder_stack.pop()
-        working_folder_name = client.folder(folder_id=working_folder).get().name
-        find_collabs("stack_loop", client, file, collab_file,None, working_folder,working_folder_name)
-        for item in find_items("stack_loop", client,file, working_folder):
+        working_folder_name = client.folder(folder_id=working_folder[0]).get().name
+        find_collabs("stack_loop", client, file, collab_file,working_folder[1], working_folder[0],working_folder_name)
+
+        items = find_items("stack_loop", client,file, working_folder[0])
+        for item in items:
             type = item.type.capitalize()
             if (type=="Folder"):
-                folder_stack.append(item.id)
+                folder_stack.append((item.id,working_folder[0]))
+        file.flush()
+        collab_file.flush()
         
         # folder_ids = [i for i in list(folders)]
     # look_into_folders(client,refresh_token,file,collab_file,None,folder,collaborators, start)
@@ -199,4 +203,4 @@ def main(access_token, refresh_token,folder_id,thread_base):
     #     thread.join()"
     """
 #Uncaomment to Test Local
-#main(DEV_TOKEN,"", "314801509226",0)
+# main(DEV_TOKEN,"qojxwOZXo18YQybg1EmWWPX1lRlLHPUM","47596547829",0)

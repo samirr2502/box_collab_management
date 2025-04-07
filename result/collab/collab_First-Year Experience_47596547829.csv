@@ -1,0 +1,42 @@
+thread,user,user_id,name,email,folder_id,folder_name,collab_id
+[thread_name],Group,640570845,OIT-SS-TSE-SU,None,47596547829,First-Year Experience,12347831050
+[thread_name],User,11694684547,Justin Collings,jmc255@byu.edu,47596547829,First-Year Experience,45818812931
+[thread_name],User,3476769917,Becky Crawford,rlc@byu.edu,47596547829,First-Year Experience,13305356809
+[thread_name],User,3503914650,David Waddell,dlw34@byu.edu,47596547829,First-Year Experience,37017703843
+[thread_name],User,3523864959,Daidre Hulick,daidreh@byu.edu,47596547829,First-Year Experience,13214013775
+[thread_name],User,3578435843,Bryce Bunting,bbunting@byu.edu,47596547829,First-Year Experience,36879307971
+[thread_name],User,8191241904,Sandi Bennett,sbenne58@byu.edu,47596547829,First-Year Experience,16563748185
+[thread_name],User,9941347947,Madeline McCauley,mmccau01@byu.edu,47596547829,First-Year Experience,55911452493
+[thread_name],User,10577922974,Lindsey Blau,lp526@byu.edu,47596547829,First-Year Experience,43814780164
+[thread_name],User,11505212547,Deborah Hall,ddm6@byu.edu,47596547829,First-Year Experience,39904989948
+[thread_name],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,47596547829,First-Year Experience,42610603264
+[thread_name],User,19951858619,Rebekah Dayton,rd2003@byu.edu,47596547829,First-Year Experience,53671699158
+[thread_name],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,47596547829,First-Year Experience,39904987548
+[thread_name],User,23663698729,Samir Rodriguez,samirr14@byu.edu,47596547829,First-Year Experience,52900050114
+[thread_name],User,28550113604,Haylie Morgan,haylielm@byu.edu,47596547829,First-Year Experience,48142854203
+[thread_name],User,28569229852,Lonni Burdett,loni2020@byu.edu,47596547829,First-Year Experience,61961008558
+[thread_name],User,35709042636,Lawson Archibald,larchib7@byu.edu,47596547829,First-Year Experience,57262091540
+[stack_loop],Group,640570845,OIT-SS-TSE-SU,None,47596547829,First-Year Experience,12347831050
+[stack_loop],User,11694684547,Justin Collings,jmc255@byu.edu,47596547829,First-Year Experience,45818812931
+[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,47596547829,First-Year Experience,13305356809
+[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,47596547829,First-Year Experience,37017703843
+[stack_loop],User,3523864959,Daidre Hulick,daidreh@byu.edu,47596547829,First-Year Experience,13214013775
+[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,47596547829,First-Year Experience,36879307971
+[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,47596547829,First-Year Experience,16563748185
+[stack_loop],User,9941347947,Madeline McCauley,mmccau01@byu.edu,47596547829,First-Year Experience,55911452493
+[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,47596547829,First-Year Experience,43814780164
+[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,47596547829,First-Year Experience,39904989948
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,47596547829,First-Year Experience,42610603264
+[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,47596547829,First-Year Experience,53671699158
+[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,47596547829,First-Year Experience,39904987548
+[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,47596547829,First-Year Experience,52900050114
+[stack_loop],User,28550113604,Haylie Morgan,haylielm@byu.edu,47596547829,First-Year Experience,48142854203
+[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,47596547829,First-Year Experience,61961008558
+[stack_loop],User,35709042636,Lawson Archibald,larchib7@byu.edu,47596547829,First-Year Experience,57262091540
+[stack_loop],User,31217142168,Amy Sessions,asesh16@byu.edu,200064509294,Tech Info,58010257307
+[stack_loop],User,9863936163,Lenna Wilcox,lennabee@byu.edu,275403863167,autoemail - Templates,55440441426
+[stack_loop],User,21946229414,Emma Lambert,emmalamb@byu.edu,275403863167,autoemail - Templates,55440439026
+[stack_loop],User,32194314124,Jennifer Spiker,jspiker@byu.edu,275444793515,AutoEmailTemplates - Docs,55416239698
+[stack_loop],User,15505755166,JoAmber Rawlins,joamberj@byu.edu,260726298334,Mentor Photos,53548892595
+[stack_loop],User,15609877769,Emma Cloward,emmacc3@byu.edu,245366675450,Winter 2024 Mentor Photos,53798586415
+[stack_loop],User,29021546383,Marissa Huish,mehuish@byu.edu,245366675450,Winter 2024 Mentor Photos,53798584015
