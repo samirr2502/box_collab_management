@@ -1,0 +1,37 @@
+box connection made: <boxsdk.client.client.Client object at 0x102f7bf20>
+
+started folder look up:314801509226
+[thread_name] API call get_collaborations
+[thread_name]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x103593020>
+[thread_name],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314801509226,Test_collabs,61989366037
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x103593cb0>
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314801509226,Test_collabs,61989366037
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103593aa0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1035935f0>
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1035929f0>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x103591160>
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103593c80>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1035934d0>
+[stack_loop],User,21365324206,Luz del Alba Rodriguez Rodriguez,luzar14@byu.edu,314802594772,F1,62283118904
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103593110>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1035936e0>
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103592810>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x103592c00>
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x103593440>
+[stack_loop] API call get_collaborations
+[stack_loop]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1035934a0>
+[stack_loop],User,21365324206,Luz del Alba Rodriguez Rodriguez,luzar14@byu.edu,314803162828,F3,62282996993
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1035939e0>
