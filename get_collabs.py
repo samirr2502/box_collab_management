@@ -67,7 +67,7 @@ def open_files(client, folder_id):
     collab_file=open(collab_file_name, "a", encoding="utf-8") 
     
     collab_file.write("work_type,user,user_id,name,email,folder_id,folder_name,folder_owner,access_given_by,collab_id\n")
-    return log_file, collab_file
+    return log_file, collab_file, log_file_name, collab_file_name
 
 
 def main(access_token, refresh_token,folder_id, exclude_folder_ids):
@@ -79,6 +79,8 @@ def main(access_token, refresh_token,folder_id, exclude_folder_ids):
     files = open_files(client, folder_id)
     log_file = files[0]
     collab_file=files[1]
+    log_file_name = files[2]
+    collab_file_name = files[3]
 
     #Find parent folder collabs
 
@@ -127,6 +129,12 @@ def main(access_token, refresh_token,folder_id, exclude_folder_ids):
 
         log_file.flush()
         collab_file.flush()
+    results_box_folder_id=317274728644
+    new_collab_file = client.folder(folder_id =results_box_folder_id).upload(collab_file_name)
+    new_log_file = client.folder(folder_id =results_box_folder_id).upload(log_file_name)
+
+    print(f'File "{new_collab_file.name}" uploaded to Box with file ID {new_collab_file.id}')
+    print(f'File "{new_log_file.name}" uploaded to Box with file ID {new_log_file.id}')
 
     log_file.close()
     collab_file.close()

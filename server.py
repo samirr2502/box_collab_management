@@ -45,16 +45,16 @@ def auth():
     # return template
 
     
+    access_token, refresh_token = api_connect.get_access_token(auth_code)
+    print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
+
     try:
         option = -1
         while(option != 2):
             option = input("Select an option [0-1-2]\n [0]Find Collabs\n [1]Remove User\n [2]Exit:\n")
             print(f"You selected option {option}\n")
-            thread_base = 0
 
             if option == "0":
-                access_token, refresh_token = api_connect.get_access_token(auth_code)
-                print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
                 
                 folder_id = input("Folder ID: ")
                
@@ -83,7 +83,6 @@ def auth():
                     e.close()
             
             elif option == "1":
-                access_token, refresh_token = api_connect.get_access_token(auth_code)
                 print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
                 print(f"Start typing... {option}\n")
                 user_id = input("User ID: ")
