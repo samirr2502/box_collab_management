@@ -1,5 +1,6 @@
 from boxsdk import Client, OAuth2, BoxAPIException
 import time
+from datetime import datetime
 import api_connect
 import json
 #GLOBAL VARIABLES
@@ -8,7 +9,7 @@ DEV_TOKEN = "GcDK9FKHuyJgy1MvPDJRtKDylT2z0M2Z"
 TIME_TO_REFRESH = 50*60
 
 
-def find_collabs(work_type,client, log_file,collab_file,parent_folder_id, folder_id, folder_name):
+def find_collabs(work_type,client, log_file,collab_file,path,parent_folder_id, folder_id, folder_name):
     
     #find parent collaborators:
     parent_collab_ids =[]
@@ -26,10 +27,10 @@ def find_collabs(work_type,client, log_file,collab_file,parent_folder_id, folder
         access_given_by = getattr(collab.created_by, "name", None) 
         if (user is not None and user.id not in parent_collab_ids):
             user_login = getattr(user, "login", None) 
-            print(f'    >> Found collab:[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{collab.id}\n')
-            print(f'            >[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{collab.id}\n')
-            log_file.write(f'[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{collab.id}\n')
-            collab_file.write(f'[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{collab.id}\n')
+            print(f'    >> Found collab:\n')
+            print(f'            >[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{path},{collab.id}\n')
+            log_file.write(f'       >>[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{path},{collab.id}\n')
+            collab_file.write(f'[{work_type}],{user.type.capitalize()},{user.id},{user.name},{user_login},{folder_id},{folder_name},{owner},{access_given_by},{path},{collab.id}\n')
 
 
 
@@ -55,8 +56,12 @@ def open_files(client, folder_id):
     folder_name = client.folder(folder_id=folder_id).get().name
     
     #Open Files to log
-    log_file_name= f'result/collab/log_{folder_name}_{folder_id}.txt'
-    collab_file_name= f'result/collab/collab_{folder_name}_{folder_id}.csv'
+    date= datetime.now()
+    date =str(date).replace(" ","_")
+    date =str(date).replace(":","_")
+
+    log_file_name= f'result/collab/log_{folder_name}_{folder_id}_{date}.txt'
+    collab_file_name= f'result/collab/collab_{folder_name}_{folder_id}_{date}.csv'
 
     #Empty Files
     open(log_file_name,"w").close()
@@ -85,7 +90,7 @@ def main(access_token, refresh_token,folder_id, exclude_folder_ids):
     #Find parent folder collabs
 
     folder_stack = []
-    folder_stack.append((folder_id,None))
+    folder_stack.append((folder_id,None,[]))
     print(f"started folder look up:{folder_id}\n")
     log_file.write(f"started folder look up:{folder_id}\n")
     while len(folder_stack) !=0:    
@@ -103,13 +108,13 @@ def main(access_token, refresh_token,folder_id, exclude_folder_ids):
         working_folder = folder_stack.pop()
         working_folder_name = client.folder(folder_id=working_folder[0]).get().name
 
-        print(f'Folder: {working_folder_name}\n')
-        log_file.write(f'Folder: {working_folder_name}\n')        
+        print(f'Folder: {working_folder[0]} {working_folder_name}. Level: {len(working_folder[2])}\n  Path: {working_folder[2]}\n')
+        log_file.write(f'Folder: {working_folder[0]} {working_folder_name}. Level: {len(working_folder[2])}\n  Path: {working_folder[2]}\n')        
         
         #find collabs of working folder:
         print(f'    Collaborators: \n')
         log_file.write(f'   Collaborators: \n')
-        find_collabs("stack_loop", client, log_file, collab_file,working_folder[1], working_folder[0],working_folder_name)
+        find_collabs("stack_loop", client, log_file, collab_file,working_folder[2],working_folder[1], working_folder[0],working_folder_name)
 
         print(f'    Items: \n')
         log_file.write(f'   Items: \n')
@@ -122,14 +127,17 @@ def main(access_token, refresh_token,folder_id, exclude_folder_ids):
         for item in items:
             type = item.type.capitalize()
             if (type=="Folder") and item.id not in exclude_folder_ids.split(","):
-                print(f'    **Item {item.name}\n')
-                log_file.write(f'    **Item {item.name}\n')
-
-                folder_stack.append((item.id,working_folder[0]))
+                print(f'    **Item {item.id} {item.name} level: {len(working_folder[2])+1}\n')
+                log_file.write(f'    **Item {item.id} {item.name}  level: {len(working_folder[2])+1}\n')
+                new_path = [(working_folder[0],working_folder_name)]
+                new_path.extend(working_folder[2])
+                folder_stack.append((item.id,working_folder[0],new_path))
 
         log_file.flush()
         collab_file.flush()
     results_box_folder_id=317274728644
+
+    
     new_collab_file = client.folder(folder_id =results_box_folder_id).upload(collab_file_name)
     new_log_file = client.folder(folder_id =results_box_folder_id).upload(log_file_name)
 
