@@ -1,0 +1,37 @@
+box connection made: <boxsdk.client.client.Client object at 0x000002A24B9FAF90>
+
+started folder look up:314801509226
+[thread_name] API call get_collaborations
+[thread_name],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314801509226,Test_collabs,None,Samir Rodriguez,62285694831
+[stack_loop] API call get_collaborations
+[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314801509226,Test_collabs,None,Samir Rodriguez,62285694831
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B2BD010>
+[stack_loop] API call get_collaborations
+[stack_loop],User,21365324206,Luz del Alba Rodriguez Rodriguez,luzar14@byu.edu,314801990012,F2,Samir Rodriguez,Samir Rodriguez,62286090405
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B9FDD10>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B9FEE90>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B9EE3F0>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B9EE780>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24BC072F0>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B9B3790>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B9B3020>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B99EC50>
+[stack_loop] API call get_collaborations
+[stack_loop] API call get_items
+[stack_loop]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x000002A24B99EB50>

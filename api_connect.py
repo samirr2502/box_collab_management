@@ -60,7 +60,6 @@ def refresh_token(refresh_token):
     return ACCESS_TOKEN, REFRESH_TOKEN
         
 def handle_box_exception(file,e):
-    refresh_token(REFRESH_TOKEN)
 
     print(f"Failed to run box api: HTTP {e.status} - {e.message} - {e.getResponse}\n")
     file.write(f"Failed to run box api: HTTP {e.status} - {e.message}\n")
@@ -70,6 +69,7 @@ def handle_box_exception(file,e):
         file.write("Folder not found!\n")
         print("Trying to refresh token!\n")
         file.write("Trying to refresh token!\n")
+        refresh_token(REFRESH_TOKEN)
     elif e.status == 401:
         print("No permissions [refresh token might have failed]")
     elif e.status == 403:

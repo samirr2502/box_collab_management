@@ -9,23 +9,21 @@ token_url = "https://api.box.com/oauth2/token"
 USE_TOKEN = ACCESS_TOKEN
 
 lock = threading.Lock()
-thread_base= 1
-
 
 
 def look_into_folders(client,file,removed_from, user_id,folder_id):
-    thread_name = threading.current_thread().name
-    log = f'[{thread_name}] started folder look up for folder: {client.folder(folder_id=folder_id).get().name} - {folder_id}\n'
+
+    log = f'[{work_type}] started folder look up for folder: {client.folder(folder_id=folder_id).get().name} - {folder_id}\n'
     file.write(log)
     print(log)
 
-    print(f"[{thread_name}] API call get_collaborations\n")
-    file.write(f"[{thread_name}] API call get_collaborations\n")
+    print(f"[{work_type}] API call get_collaborations\n")
+    file.write(f"[{work_type}] API call get_collaborations\n")
 
     collaborations = client.folder(folder_id = folder_id).get_collaborations()
 
-    print(f"[{thread_name}] API call get_collaborations result:{collaborations}\n")
-    file.write(f"[{thread_name}] API call get_collaborations result:{collaborations}\n") 
+    print(f"[{work_type}] API call get_collaborations result:{collaborations}\n")
+    file.write(f"[{work_type}] API call get_collaborations result:{collaborations}\n") 
     
     collabs = [c.id for c in collaborations if c.accessible_by.id == user_id]
 
@@ -37,13 +35,13 @@ def look_into_folders(client,file,removed_from, user_id,folder_id):
         client.collaboration(collab).delete()
             
     
-    print(f'[{thread_name}] API call get_items\n')
-    file.write(f'[{thread_name}] API call get_items\n')
+    print(f'[{work_type}] API call get_items\n')
+    file.write(f'[{work_type}] API call get_items\n')
     
     items = client.folder(folder_id=folder_id).get_items()
 
-    print(f'[{thread_name}] API call get_items result: {items}\n')
-    file.write(f'[{thread_name}]API call get_items result: {items}\n')
+    print(f'[{work_type}] API call get_items result: {items}\n')
+    file.write(f'[{work_type}]API call get_items result: {items}\n')
 
     #Recursive call look_into_folders from all the folders
     for item in items:
@@ -51,10 +49,7 @@ def look_into_folders(client,file,removed_from, user_id,folder_id):
         if (type=="Folder"):
             look_into_folders(client,file, removed_from,user_id, item.id)
 
-def main(access_token,user_id, folder_id,thread_base):
-    thread_base = thread_base
-
-    main_thread_name = 'Thread-Main'
+def main(access_token,user_id, folder_id):
 
     ACCESS_TOKEN = access_token
     USE_TOKEN = ACCESS_TOKEN
@@ -64,7 +59,7 @@ def main(access_token,user_id, folder_id,thread_base):
     #Create Connection 
     auth = OAuth2(client_id=None, client_secret=None, access_token=USE_TOKEN)
     client = Client(auth)
-    print("[{main_thread_name}] API call get().name from user{user_id}\n")
+    print("[] API call get().name from user{user_id}\n")
     
 
     folder_name = client.folder(folder_id=folder_id).get().name
@@ -91,7 +86,7 @@ def main(access_token,user_id, folder_id,thread_base):
     file.write(f"started folder look up:{folder_id}\n")
     
     #Make recursive call
-    look_into_folders(client,file,removed_from,user_id,folder_id)
+    look_into_folders("[stack loop]",client,file,removed_from,user_id,folder_id)
 
     file.close()
     removed_from.close()
