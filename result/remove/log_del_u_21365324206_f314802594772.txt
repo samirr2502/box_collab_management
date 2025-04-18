@@ -1,0 +1,18 @@
+box connection made: <boxsdk.client.client.Client object at 0x102cebf20>
+
+started folder look up:314802594772
+[Thread-1 (process_request_thread)] started folder look up for folder: F1 - 314802594772
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1032ff020>
+collabs: ['62283118904']deleting collab: 62283118904[Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1032fd280>
+[Thread-1 (process_request_thread)] started folder look up for folder: F1_1 - 314802018639
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1032ff620>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1032ff3b0>
+[Thread-1 (process_request_thread)] started folder look up for folder: F1_2 - 314801128756
+[Thread-1 (process_request_thread)] API call get_collaborations
+[Thread-1 (process_request_thread)] API call get_collaborations result:<boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x1032ff260>
+collabs: [][Thread-1 (process_request_thread)] API call get_items
+[Thread-1 (process_request_thread)]API call get_items result: <boxsdk.pagination.limit_offset_based_object_collection.LimitOffsetBasedObjectCollection object at 0x1032ff560>
