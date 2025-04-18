@@ -2790,18 +2790,3 @@ Folder: fr.lproj
     **Item MainMenu.nib
     **Item AuthDialog.nib
     **Item FlashPromptDialog.nib
-Folder: FlashPromptDialog.nib
-   Collaborators: 
-   Items: 
-Folder: AuthDialog.nib
-   Collaborators: 
-   Items: 
-Folder: MainMenu.nib
-   Collaborators: 
-   Items: 
-Folder: ru.lproj
-   Collaborators: 
-   Items: 
-    **Item MainMenu.nib
-    **Item AuthDialog.nib
-    **Item FlashPromptDialog.nib
