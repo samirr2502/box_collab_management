@@ -7,11 +7,14 @@ const Collabs = ({ refreshToken, setRefreshToken, accessToken}) => {
   const [folderId, setFolderId] = useState('');
   const [excludeFolderIds, setExcludeFolderIds] = useState('');
   const [isCompleted, setIsCompleted] = useState(false);
+  const [loading, setLoading] = useState(false);
+
 
   
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    setLoading(true);
+    setIsCompleted(false);
     fetch(`http://127.0.0.1:5000/get_collabs?folderId=${folderId}&excludeFolderIds=${excludeFolderIds}&refreshToken=${refreshToken}&accessToken=${accessToken}`, {
       method: 'GET',
     })
@@ -24,6 +27,9 @@ const Collabs = ({ refreshToken, setRefreshToken, accessToken}) => {
     })
     .catch((err) => {
       console.error("Error:", err);
+    })
+    .finally(() => {
+      setLoading(false);
     });
   };
   return (
@@ -53,8 +59,9 @@ const Collabs = ({ refreshToken, setRefreshToken, accessToken}) => {
     />
   </div>
 
-  <button className="btn" type="submit">Get Collaborations</button>
-</form>
+  <button className="btn" type="submit" disabled={loading}>
+  {loading ? "Processing..." : "Get Collaborations"}
+</button></form>
 {isCompleted && (
   <div className="checkmark-container">
     <div className="checkmark">✅</div>
