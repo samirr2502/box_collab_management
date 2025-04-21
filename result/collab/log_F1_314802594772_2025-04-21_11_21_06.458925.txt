@@ -1,0 +1,16 @@
+started folder look up:314802594772
+Folder: 314802594772 F1. Level: 0
+  Path: []
+   Collaborators: 
+       >>[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314802594772,F1,Samir Rodriguez,Samir Rodriguez,[],62285694831
+   Items: 
+    **Item 314802018639 F1_1  level: 1
+    **Item 314801128756 F1_2  level: 1
+Folder: 314801128756 F1_2. Level: 1
+  Path: [('314802594772', 'F1')]
+   Collaborators: 
+   Items: 
+Folder: 314802018639 F1_1. Level: 1
+  Path: [('314802594772', 'F1')]
+   Collaborators: 
+   Items: 

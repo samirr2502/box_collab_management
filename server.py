@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect, jsonify
 import time
 import requests
 import webbrowser
@@ -11,14 +11,14 @@ from boxsdk import BoxAPIException
 import os
 PORT = 5000
 
-TEMPLATE_DIR = os.path.abspath('./templates')
-STATIC_DIR = os.path.abspath('./templates/static')
+TEMPLATE_DIR = os.path.abspath('./box-collab/dist')
+STATIC_DIR = os.path.abspath('./box-collab/dist/assets')
 app = Flask(__name__,  template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
 
 @app.route("/")
 def index():
-    template = render_template("index.html")
+    template = render_template("./index.html")
     return template
 
 @app.route("/get_box_access")
@@ -35,8 +35,7 @@ def get_auth_token():
     # Get authtoken from box
     access_token, refresh_token = api_connect.get_access_token(auth_code)
     print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
-    template = render_template("index_auth_temp.html")
-    return template
+    return redirect(f"http://127.0.0.1:5000?refreshToken={refresh_token}&accessToken={access_token}")
 
 @app.route("/auth_terminal")
 def get_auth_token_term():
@@ -52,8 +51,23 @@ def get_auth_token_term():
 
 @app.route("/get_collabs")
 def callback():
-    template = render_template('index.html')
-    return template
+    folder_id = request.args.get("folderId")
+    exclude_ids = request.args.get("excludeFolderIds", "")
+    # Convert exclude IDs to a list
+    exclude_list = []
+
+    #get refresh token
+    refresh_token = request.args.get("refreshToken")
+    access_token = request.args.get("accessToken")
+    print(f"folder_id: {folder_id}\nexcludeFolderIds: {exclude_ids}\n")
+
+    print(f"access_token: {access_token}\nrefresh_token: {refresh_token}\n")
+
+    # access_token, refresh_token = api_connect.refresh_token(refresh_token)
+
+    # Call your processing function
+    get_collabs.main(access_token, refresh_token,folder_id, exclude_ids)
+    return jsonify({"status": "success", "message": "Collaboration complete"})
 
 
 if __name__ == "__main__":
