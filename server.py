@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, jsonify
+from flask import Flask, request, render_template, redirect, jsonify,send_from_directory
 import time
 import requests
 import webbrowser
@@ -16,10 +16,14 @@ STATIC_DIR = os.path.abspath('./box-collab/dist/assets')
 app = Flask(__name__,  template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
 
-@app.route("/")
-def index():
-    template = render_template("./index.html")
-    return template
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def index(path):
+    if path != "" and os.path.exists(f"{TEMPLATE_DIR}/{path}"):
+        return send_from_directory(TEMPLATE_DIR, path)
+    else:
+        return send_from_directory(TEMPLATE_DIR, 'index.html')
+
 
 @app.route("/get_box_access")
 def get_access():

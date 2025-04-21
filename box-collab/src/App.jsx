@@ -51,8 +51,8 @@ function App() {
             <li><Link to="/">Home</Link></li>
             {refreshToken && (
               <>
-                <li><Link to="/get_collabs">Get Collabs</Link></li>
-                <li><Link to="/remove_user">Remove User</Link></li>
+                <li><Link to="/collabs">Get Collabs</Link></li>
+                <li><Link to="/remove">Remove User</Link></li>
               </>
             )}
           </ul>
@@ -62,8 +62,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home refreshToken={refreshToken} setRefreshToken={setRefreshToken} 
                                           accessToken={accessToken} setAccessToken={setAccessToken} />} />
-            <Route path="/get_collabs" element={<Collabs refreshToken={refreshToken} accessToken={accessToken}/>} />
-            <Route path="/remove_user" element={<div>Remove User Page</div>} />
+            <Route path="/collabs" element={<Collabs refreshToken={refreshToken} accessToken={accessToken}/>} />
+            <Route path="/remove" element={<div>Remove User Page</div>} />
           </Routes>
         </main>
       </div>
