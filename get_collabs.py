@@ -135,7 +135,7 @@ def main(access_token, refresh_token,folder_id, exclude_folder_ids):
 
         log_file.flush()
         collab_file.flush()
-    results_box_folder_id=317274728644
+    results_box_folder_id=317785398433
 
     
     new_collab_file = client.folder(folder_id =results_box_folder_id).upload(collab_file_name)
