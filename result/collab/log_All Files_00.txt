@@ -1,5 +1,0 @@
-box connection made: <boxsdk.client.client.Client object at 0x10141b530>
-
-started folder look up:00
-[thread_name] API call get_collaborations
-[thread_name]API call get_collaborations result: <boxsdk.pagination.marker_based_object_collection.MarkerBasedObjectCollection object at 0x10382ae70>

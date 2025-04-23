@@ -1,6 +1,0 @@
-started folder look up:314803162828
-Folder: 314803162828 F3. Level: 0
-  Path: []
-   Collaborators: 
-       >>[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314803162828,F3,Samir Rodriguez,Samir Rodriguez,[],62285694831
-   Items: 

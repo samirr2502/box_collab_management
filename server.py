@@ -5,6 +5,7 @@ import webbrowser
 import api_connect
 import get_collabs
 import remove_user
+import get_items
 import terminal_view
 import api_get_auth_code
 from boxsdk import BoxAPIException
@@ -73,6 +74,17 @@ def callback():
     get_collabs.main(access_token, refresh_token,folder_id, exclude_ids)
     return jsonify({"status": "success", "message": "Collaboration complete"})
 
+
+@app.route("/get_items")
+def get_items_box():
+    folder_id = request.args.get("folderId")
+    refresh_token = request.args.get("refreshToken")
+    access_token = request.args.get("accessToken")
+
+    print(f"folder_id: {folder_id}\n")
+    items = get_items.main(access_token,refresh_token, folder_id)
+    jsoned = jsonify(items)
+    return jsoned
 
 if __name__ == "__main__":
     app.run(port=PORT)

@@ -83,19 +83,42 @@
   font-size: 0.9rem;
   color: #666;
 }
+/* === Layout === */
+.collab-layout {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+  align-items: flex-start;
+}
 
+.items-column {
+  width: 40%;
+  background-color: #f4f4f4;
+  padding: 16px;
+  border-radius: 8px;
+}
 
-/*Get Collabs*/
+.form-column {
+  width: 50%;
+}
+
+/* === Items Container === */
+.items-container {
+  background: #f8f8f8;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+/* === Form Styling === */
 .collab-form {
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  max-width: 500px;
-  margin-top: 2rem;
+  max-width: 100%;
 }
 
-.form-group {
+.collab-form .form-group {
   margin-bottom: 1.5rem;
 }
 
@@ -107,7 +130,6 @@
 }
 
 .form-group input {
-  width: 100%;
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -118,4 +140,43 @@
 .form-group input:focus {
   border-color: #3a8dd5;
   outline: none;
+}
+
+.collab-form button {
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  background-color: #3a8dd5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.collab-form button:hover {
+  background-color: #327ac7;
+}
+
+/* === Success Checkmark === */
+.checkmark-container {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: green;
+}
+ul ul {
+  background-color: #f0f0f0;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+.link {
+  color: #3a8dd5;           /* Typical link blue */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: #1c6fbb;
 }
