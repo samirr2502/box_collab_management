@@ -1,0 +1,57 @@
+started folder look up:64996376413
+Folder: 64996376413 Social Skills 2010 ECLSK Final. Level: 0
+  Path: []
+   Collaborators: 
+       >>[stack_loop],User,2536294109,Lance Erickson,lde@byu.edu,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Lear Burton,[],57860811790
+       >>[stack_loop],User,3483054503,Jonathan Jarvis,jjarvis@byu.edu,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Lear Burton,[],19237058770
+       >>[stack_loop],User,3772562698,Ben Gibbs,bgg6@byu.edu,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Lear Burton,[],16722063872
+       >>[stack_loop],User,7098868683,Ben Walter,defisoc@byu.edu,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Lear Burton,[],15276881905
+       >>[stack_loop],User,15859722705,Lear Burton,learburton@gmail.com,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Lear Burton,[],32527758218
+       >>[stack_loop],User,37381353164,Lear Burton,lear@umd.edu,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Lear Burton,[],57837680807
+       >>[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,64996376413,Social Skills 2010 ECLSK Final,Thomas Leppard,Ben Gibbs,[],51301139685
+   Items: 
+    **Item 81442541912 Data Files  level: 1
+    **Item 81441242963 Delete or Archive?  level: 1
+    **Item 81441435422 .Do Files  level: 1
+    **Item 81441317527 Electronic Codebook  level: 1
+    **Item 81440581544 Tables  level: 1
+    **Item 81441283259 Documentation  level: 1
+    **Item 83581531218 Math & Reading Scores 2010 ECLSK Final  level: 1
+Folder: 83581531218 Math & Reading Scores 2010 ECLSK Final. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+Folder: 81441283259 Documentation. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+Folder: 81440581544 Tables. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+    **Item 70470088681 Regressions  level: 2
+Folder: 70470088681 Regressions. Level: 2
+  Path: [('81440581544', 'Tables'), ('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+Folder: 81441317527 Electronic Codebook. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+Folder: 81441435422 .Do Files. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+    **Item 101793826789 New folder  level: 2
+Folder: 101793826789 New folder. Level: 2
+  Path: [('81441435422', '.Do Files'), ('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+Folder: 81441242963 Delete or Archive?. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 
+Folder: 81442541912 Data Files. Level: 1
+  Path: [('64996376413', 'Social Skills 2010 ECLSK Final')]
+   Collaborators: 
+   Items: 

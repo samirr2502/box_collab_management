@@ -2,7 +2,7 @@ import React,  { useState, useEffect }from 'react';
 import { useNavigate } from 'react-router-dom';
 import './index.css'
 
-const Home = ({ refreshToken, setRefreshToken , accessToken,setAccessToken }) => {
+const Home = ({  sessionUser, setSessionUser}) => {
   const navigate = useNavigate();
 
   const handleBoxAccess = () => {
@@ -14,29 +14,23 @@ const Home = ({ refreshToken, setRefreshToken , accessToken,setAccessToken }) =>
     window.location.href = boxAuthUrl;
   };
   const handleLogout = () => {
-    localStorage.removeItem('refreshToken');
-    localStorage.removeItem('accessToken');
-    setRefreshToken('');
-    setAccessToken('');
+    localStorage.removeItem('sessionUser');
+    setSessionUser('');
+    fetch(`http://127.0.0.1:5000/logout`, {
+      method: 'GET',
+    })
     navigate('/'); // optional: redirect to home
   };
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const refresh = params.get('refreshToken');
-    const access = params.get('accessToken');
-  
-    if (refresh) {
-      localStorage.setItem('refreshToken', refresh);
-      setRefreshToken(refresh);
+    const user = params.get('session_user')
+    if (user){
+      localStorage.setItem('sessionUser', user);
+      setSessionUser(user);
     }
-  
-    if (access) {
-      localStorage.setItem('accessToken', access);
-      setAccessToken(access);
-    }
-  
-    if (refresh || access) {
+ 
+    if (sessionUser) {
       navigate('/'); // Clean up URL
     }
   }, []);
@@ -44,8 +38,8 @@ const Home = ({ refreshToken, setRefreshToken , accessToken,setAccessToken }) =>
 
   return (
     <>
-      <h2>Welcome to Box Collab</h2>
-      {!refreshToken && !accessToken ? (
+      <h2>Welcome to Box Collab {sessionUser}</h2>
+      {!sessionUser ? (
         <button className="btn" onClick={handleBoxAccess}>Get Box Access</button>
       ) : (
         <>

@@ -1,0 +1,55 @@
+started folder look up:280563400428
+Folder: 280563400428 FYE - Job 2024. Level: 0
+  Path: []
+   Collaborators: 
+   Items: 
+    **Item 280561866807 Peer Mentor  level: 1
+    **Item 281536028564 Research  level: 1
+    **Item 280563318143 Tech  level: 1
+Folder: 280563318143 Tech. Level: 1
+  Path: [('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+    **Item 281537476597 ODST_Data  level: 2
+    **Item 282039827695 sys  level: 2
+Folder: 282039827695 sys. Level: 2
+  Path: [('280563318143', 'Tech'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+Folder: 281537476597 ODST_Data. Level: 2
+  Path: [('280563318143', 'Tech'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+    **Item 281535990164 excelFiles  level: 3
+Folder: 281535990164 excelFiles. Level: 3
+  Path: [('281537476597', 'ODST_Data'), ('280563318143', 'Tech'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+Folder: 281536028564 Research. Level: 1
+  Path: [('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+    **Item 281536955656 secondyear  level: 2
+    **Item 281537186336 other  level: 2
+Folder: 281537186336 other. Level: 2
+  Path: [('281536028564', 'Research'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+Folder: 281536955656 secondyear. Level: 2
+  Path: [('281536028564', 'Research'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+Folder: 280561866807 Peer Mentor. Level: 1
+  Path: [('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+    **Item 274568058354 univ_101_email_pictures  level: 2
+    **Item 274358118879 univ_101_kahoot  level: 2
+Folder: 274358118879 univ_101_kahoot. Level: 2
+  Path: [('280561866807', 'Peer Mentor'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 
+Folder: 274568058354 univ_101_email_pictures. Level: 2
+  Path: [('280561866807', 'Peer Mentor'), ('280563400428', 'FYE - Job 2024')]
+   Collaborators: 
+   Items: 

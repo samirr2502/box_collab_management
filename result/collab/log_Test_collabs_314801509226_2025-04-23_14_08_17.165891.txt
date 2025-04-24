@@ -1,0 +1,52 @@
+started folder look up:314801509226
+Folder: 314801509226 Test_collabs. Level: 0
+  Path: []
+   Collaborators: 
+       >>[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314801509226,Test_collabs,Samir Rodriguez,Samir Rodriguez,[],62285694831
+   Items: 
+    **Item 314803162828 F3  level: 1
+    **Item 314802594772 F1  level: 1
+    **Item 314801990012 F2  level: 1
+Folder: 314801990012 F2. Level: 1
+  Path: [('314801509226', 'Test_collabs')]
+   Collaborators: 
+       >>[stack_loop],User,21365324206,Luz del Alba Rodriguez Rodriguez,luzar14@byu.edu,314801990012,F2,Samir Rodriguez,Samir Rodriguez,[('314801509226', 'Test_collabs')],62286090405
+   Items: 
+    **Item 316689032548 f2_2  level: 2
+    **Item 314802706829 F2_1  level: 2
+Folder: 314802706829 F2_1. Level: 2
+  Path: [('314801990012', 'F2'), ('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+Folder: 316689032548 f2_2. Level: 2
+  Path: [('314801990012', 'F2'), ('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+    **Item 316689563471 f2_2_2  level: 3
+Folder: 316689563471 f2_2_2. Level: 3
+  Path: [('316689032548', 'f2_2'), ('314801990012', 'F2'), ('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+    **Item 316688128302 very_private_folder  level: 4
+Folder: 316688128302 very_private_folder. Level: 4
+  Path: [('316689563471', 'f2_2_2'), ('316689032548', 'f2_2'), ('314801990012', 'F2'), ('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+Folder: 314802594772 F1. Level: 1
+  Path: [('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+    **Item 314802018639 F1_1  level: 2
+    **Item 314801128756 F1_2  level: 2
+Folder: 314801128756 F1_2. Level: 2
+  Path: [('314802594772', 'F1'), ('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+Folder: 314802018639 F1_1. Level: 2
+  Path: [('314802594772', 'F1'), ('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
+Folder: 314803162828 F3. Level: 1
+  Path: [('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 

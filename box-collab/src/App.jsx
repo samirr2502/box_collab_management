@@ -6,34 +6,25 @@ import Collabs from './Collabs'
 // import './index.css'
 
 function App() {
-  const [refreshToken, setRefreshToken] = useState('');
-  const [accessToken, setAccessToken] = useState('');
+  const [sessionUser, setSessionUser] = useState('');
+  const [sessionTasks, setSessionTasks] = useState([]);
 
   useEffect(() => {
-    const token = localStorage.getItem('refreshToken');
-    const storedAccess = localStorage.getItem('accessToken');
+    const storedUser = localStorage.getItem('sessionUser');
+    if (storedUser) setSessionUser(storedUser);
+    const storedTasks = JSON.parse(localStorage.getItem('sessionTasks') || '[]');
 
-    if (token) setRefreshToken(token);
-    if (storedAccess) setAccessToken(storedAccess);
-
+    if (storedTasks) setSessionTasks(storedTasks);
   }, []);
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const refresh = params.get('refreshToken');
-    const access = params.get('accessToken');
-  
-    if (refresh) {
-      localStorage.setItem('refreshToken', refresh);
-      setRefreshToken(refresh);
+    const user = params.get('session_user')
+    if (user){
+      localStorage.setItem('sessionUser', user);
+      setSessionUser(user);
     }
-  
-    if (access) {
-      localStorage.setItem('accessToken', access);
-      setAccessToken(access);
-    }
-  
     // Optional: clean up the URL so tokens aren’t visible
-    if (refresh || access) {
+    if (user) {
       window.history.replaceState({}, '', '/');
     }
   }, []);
@@ -49,7 +40,7 @@ function App() {
         <nav className="side-nav">
           <ul>
             <li><Link to="/">Home</Link></li>
-            {refreshToken && (
+            {sessionUser && (
                
               <>
                 <li><Link to="/collabs">Get Collabs</Link></li>
@@ -61,9 +52,9 @@ function App() {
 
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Home refreshToken={refreshToken} setRefreshToken={setRefreshToken} 
-                                          accessToken={accessToken} setAccessToken={setAccessToken} />} />
-            <Route path="/collabs" element={<Collabs refreshToken={refreshToken} accessToken={accessToken}/>} />
+            <Route path="/" element={<Home sessionUser={sessionUser} setSessionUser={setSessionUser}
+                                            sessionTasks={sessionTasks} setSessionTasks={setSessionTasks}/>} />
+            <Route path="/collabs" element={<Collabs/>} />
             <Route path="/remove" element={<div>Remove User Page</div>} />
           </Routes>
         </main>

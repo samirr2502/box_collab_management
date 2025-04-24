@@ -24,7 +24,7 @@ def main(access_token, refresh_token,folder_id):
     start= time.time()
     print("call got to server\n")
     folders = client.folder(folder_id=folder_id).get_items()
-    f_ = [{folder.id: folder.name} for folder in folders]
+    f_ = [{folder.id: (folder.name,folder.type.capitalize())} for folder in folders]
     print(folders, f_)
     return f_
 

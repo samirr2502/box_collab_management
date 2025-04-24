@@ -1,0 +1,44 @@
+started folder look up:306326360910
+Folder: 306326360910 Past Semester Key Convs. Level: 0
+  Path: []
+   Collaborators: 
+       >>[stack_loop],User,13101837198,David Maxwell Molgard,dmm243@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583662437
+       >>[stack_loop],User,13933044234,Faith Larkin,larkinf@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583667237
+       >>[stack_loop],User,14004867884,Noah Hill,nbhill5@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583645637
+       >>[stack_loop],User,14941641169,Logan Felix,logfelix@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583681637
+       >>[stack_loop],User,22338480384,Brenna McBride,mibra13@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583648037
+       >>[stack_loop],User,23066484784,William Fairholm,wilfai@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583703237
+       >>[stack_loop],User,23567762584,Whitney Beck,wbeck21@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583700837
+       >>[stack_loop],User,23766156348,Matthew Jordan,msjordan@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583684037
+       >>[stack_loop],User,26547903400,Noah Perry,noahep@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583688837
+       >>[stack_loop],User,28098047907,Sage Shoell,sshoell1@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583696037
+       >>[stack_loop],User,28530563325,Arya Shaffer,arya43@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583643237
+       >>[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],61029990070
+       >>[stack_loop],User,28595188182,Cory Clay,clay23@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583657637
+       >>[stack_loop],User,28620095093,Katya Yurchenko,ky275373@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583679237
+       >>[stack_loop],User,29039891424,Cole Dennis,jcd83@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583652837
+       >>[stack_loop],User,30691936396,Alex Barker,barkeale@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583640837
+       >>[stack_loop],User,31210215753,Jonah Beals,jonahjtb@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583674437
+       >>[stack_loop],User,31236222784,Mazey Schofield,schofie5@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583686437
+       >>[stack_loop],User,31237206508,Elise Cook,ercook5@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583664837
+       >>[stack_loop],User,31376241286,Daniel Wright,danw12@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583660037
+       >>[stack_loop],User,31662613228,Calvin Blackson,bcalvinw@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583650437
+       >>[stack_loop],User,33378866301,Hannah Hillam,hanlee27@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583669637
+       >>[stack_loop],User,33460413215,Kaitlyn Spendlove,kait3232@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583676837
+       >>[stack_loop],User,35270375478,Spencer Kirby,skirby1@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583698437
+       >>[stack_loop],User,35293737126,Olivia Davis,davis50@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583691237
+       >>[stack_loop],User,35792219579,Roman Russell,roman30@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583693637
+       >>[stack_loop],User,40115828473,Isaac Land,isaacl03@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60583672037
+       >>[stack_loop],User,3476769917,Becky Crawford,rlc@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584721012
+       >>[stack_loop],User,3503914650,David Waddell,dlw34@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584706612
+       >>[stack_loop],User,3578435843,Bryce Bunting,bbunting@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584725812
+       >>[stack_loop],User,8191241904,Sandi Bennett,sbenne58@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584723412
+       >>[stack_loop],User,10577922974,Lindsey Blau,lp526@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584704212
+       >>[stack_loop],User,11505212547,Deborah Hall,ddm6@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584709012
+       >>[stack_loop],User,19951858619,Rebekah Dayton,rd2003@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584713812
+       >>[stack_loop],User,21683534951,Anjilee Ferguson,anjferg@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584711412
+       >>[stack_loop],User,21946229414,Emma Lambert,emmalamb@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584728212
+       >>[stack_loop],User,23663698729,Samir Rodriguez,samirr14@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584718612
+       >>[stack_loop],User,25430364818,Jae Sampson,jaemynns@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584730612
+       >>[stack_loop],User,28569229852,Lonni Burdett,loni2020@byu.edu,306326360910,Past Semester Key Convs,Trevor Bickmore,Trevor Bickmore,[],60584716212
+   Items: 

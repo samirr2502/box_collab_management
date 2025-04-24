@@ -1,0 +1,11 @@
+started folder look up:314801509226
+Folder: 314801509226 Test_collabs. Level: 0
+  Path: []
+   Collaborators: 
+       >>[stack_loop],User,14959939569,Trevor Bickmore,b1ckmor3@byu.edu,314801509226,Test_collabs,Samir Rodriguez,Samir Rodriguez,[],62285694831
+   Items: 
+    **Item 314803162828 F3  level: 1
+Folder: 314803162828 F3. Level: 1
+  Path: [('314801509226', 'Test_collabs')]
+   Collaborators: 
+   Items: 
