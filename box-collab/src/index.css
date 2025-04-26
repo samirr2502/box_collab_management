@@ -84,23 +84,23 @@
   color: #666;
 }
 /* === Layout === */
-.collab-layout {
+.column-layout-two-even {
   display: flex;
   gap: 24px;
   margin-top: 20px;
   align-items: flex-start;
 }
 
-.items-column {
+.column-even-1, .column-even-2 {
   width: 40%;
   background-color: #f4f4f4;
   padding: 16px;
   border-radius: 8px;
 }
-
-.form-column {
-  width: 50%;
+.column-even-2 {
+  background-color: #ffffff;
 }
+
 
 /* === Items Container === */
 .items-container {
@@ -164,8 +164,10 @@
   font-size: 1.2rem;
   color: green;
 }
+
+
 ul {
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   padding: 0.5em;
   border-radius: 6px;
   list-style-type:none;
